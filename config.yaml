@@ -1,0 +1,64 @@
+# ============================================================
+#  CONFIG - the only file you normally need to edit.
+# ============================================================
+timezone: America/Toronto
+posts_per_run: 10        # posts fetched per account on each scheduled run
+posts_first_run: 50      # posts fetched the very first time an account is scraped
+missed_days: 7           # how long past events stay in the "Missed" tab
+upcoming_days: 31        # how far ahead the site shows events
+
+# Categories shown in the filter menu. 'religion' is hidden by default (handled in site/app.js).
+categories:
+  - {id: sports,     en: Sports,     fr: Sports}
+  - {id: food,       en: Food,       fr: Nourriture}
+  - {id: networking, en: Networking, fr: Réseautage}
+  - {id: academic,   en: Academic,   fr: Études}
+  - {id: culture,    en: Culture,    fr: Culture}
+  - {id: social,     en: Social,     fr: Social}
+  - {id: religion,   en: Religion,   fr: Religion}
+  - {id: other,      en: Other,      fr: Autre}
+
+# ------------------------------------------------------------
+#  ACCOUNTS. To add one, copy a line and change the handle.
+#  handle   = account name without the @
+#  category = one of the ids above (my best guess - PLEASE CHECK each one)
+#  name     = FULL club name  (TODO: fill in)      acronym = e.g. "MSA" (TODO)
+#  Until filled in, the site shows "@handle" as the club name.
+# ------------------------------------------------------------
+accounts:
+  instagram:
+    - {handle: uo.ebc,                    category: networking, name: "", acronym: ""}
+    - {handle: mtlbsauo,                  category: culture,    name: "", acronym: ""}
+    - {handle: rwsa.uottawa,              category: culture,    name: "", acronym: ""}
+    - {handle: nsbeuottawa,               category: networking, name: "", acronym: ""}
+    - {handle: uossa.aesuo,               category: culture,    name: "", acronym: ""}
+    - {handle: maison_i_house,            category: culture,    name: "", acronym: ""}
+    - {handle: ieeeuottawa,               category: networking, name: "", acronym: ""}
+    - {handle: uottawa_essaeg,            category: academic,   name: "", acronym: ""}
+    - {handle: genie_engineering_uottawa, category: academic,   name: "", acronym: ""}
+    - {handle: uomsa.aemuo,               category: religion,   name: "", acronym: ""}
+    - {handle: aeeippssa.uo,              category: academic,   name: "", acronym: ""}
+    - {handle: food_bank_aliment,         category: food,       name: "", acronym: ""}
+    - {handle: uo.bsa,                    category: culture,    name: "", acronym: ""}
+    - {handle: uo_ysa,                    category: culture,    name: "", acronym: ""}
+    - {handle: tsa.uottawa,               category: culture,    name: "", acronym: ""}
+    - {handle: uottawa.susa,              category: culture,    name: "", acronym: ""}
+
+  # >>> TIKTOK ACCOUNTS GO HERE (same format as above). Example:
+  # tiktok:
+  #   - {handle: some_club, category: sports, name: "Some Club", acronym: "SC"}
+  tiktok: []
+
+# ------------------------------------------------------------
+#  Term dates. The pipeline tries to read them from the uOttawa page twice a year.
+#  If that fails (page layout changed), fill in 'override' - it always wins.
+#  Without either, it falls back to: Fall Sep 1-Dec 31, Winter Jan 1-Apr 30, Summer May 1-Aug 31.
+# ------------------------------------------------------------
+terms:
+  url: https://www.uottawa.ca/study/important-academic-dates-deadlines
+  override: {}
+  # override example (uncomment and edit):
+  # override:
+  #   fall:   {start: "2026-09-02", end: "2026-12-18"}
+  #   winter: {start: "2027-01-11", end: "2027-04-30"}
+  #   summer: {start: "2027-05-01", end: "2027-08-20"}

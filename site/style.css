@@ -1,0 +1,61 @@
+:root{
+  --bg:#f6f4f1; --card:#fff; --ink:#1d1b1c; --muted:#6a6466; --line:#e6e1dc;
+  --accent:#8f001a; --accent-ink:#fff; --soft:#f3e3e6; --ok:#1e7a46; --warn:#9a5b00; --warn-bg:#fff4dc; --bad:#b3261e;
+  --shadow:0 1px 2px rgba(0,0,0,.05),0 4px 14px rgba(0,0,0,.05);
+}
+@media (prefers-color-scheme:dark){
+  :root{--bg:#141213; --card:#1f1c1d; --ink:#f2eeee; --muted:#a69da0; --line:#322d2f; --accent:#e5566f; --accent-ink:#1a0006;
+    --soft:#3a2026; --ok:#6bd39a; --warn:#f0b75a; --warn-bg:#33270f; --bad:#ff8a80; --shadow:none}
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+button{font:inherit;color:inherit;cursor:pointer}
+.top{position:sticky;top:0;z-index:5;background:var(--card);border-bottom:1px solid var(--line)}
+.bar{max-width:880px;margin:0 auto;padding:10px 16px;display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between}
+.brand{margin:0;font-size:1.15rem;display:flex;align-items:center;gap:8px;letter-spacing:-.01em}
+.mark{width:14px;height:14px;border-radius:4px;background:var(--accent);display:inline-block}
+.ctl{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:999px;overflow:hidden}
+.seg button{border:0;background:none;padding:5px 12px;font-size:.85rem}
+.seg button[aria-pressed=true]{background:var(--accent);color:var(--accent-ink)}
+.pill{border:1px solid var(--line);background:none;border-radius:999px;padding:5px 14px;font-size:.85rem}
+.pill[aria-expanded=true]{border-color:var(--accent);color:var(--accent)}
+.tabs{max-width:880px;margin:0 auto;padding:0 16px;display:flex;gap:4px}
+.tabs button{border:0;background:none;padding:10px 14px;border-bottom:3px solid transparent;color:var(--muted);font-weight:600}
+.tabs button[aria-selected=true]{color:var(--ink);border-color:var(--accent)}
+.panel{max-width:880px;margin:0 auto;padding:12px 16px 16px;border-top:1px solid var(--line)}
+.panel h2{font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:0 0 8px}
+.panel .opts{display:flex;flex-wrap:wrap;gap:8px 16px}
+.panel label{display:flex;gap:6px;align-items:center;font-size:.95rem}
+.panel small{color:var(--muted)}
+main{max-width:880px;margin:0 auto;padding:8px 16px 40px}
+.group{margin:22px 0 8px;font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:var(--accent)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow);padding:14px 16px;margin:10px 0;display:flex;gap:14px}
+.card.cancelled h3{text-decoration:line-through;opacity:.7}
+.avatar{flex:none;width:56px;height:56px;border-radius:50%;object-fit:cover;background:var(--soft);color:var(--accent);
+  display:flex;align-items:center;justify-content:center;font-weight:700}
+.body{min-width:0;flex:1}
+.card h3{margin:0 0 2px;font-size:1.08rem;line-height:1.25}
+.club{color:var(--muted);font-size:.85rem;margin-bottom:6px}
+.rows{display:grid;gap:3px;font-size:.93rem}
+.rows b{font-weight:600}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 0}
+.chip{font-size:.78rem;padding:2px 9px;border-radius:999px;border:1px solid var(--line);color:var(--muted)}
+.chip.free{color:var(--ok);border-color:currentColor}
+.chip.rsvp{color:var(--accent);border-color:currentColor}
+.chip.bad{color:var(--bad);border-color:currentColor;font-weight:600}
+.note{margin:8px 0 0;font-size:.82rem;padding:6px 10px;border-radius:10px;background:var(--warn-bg);color:var(--warn)}
+.upd{margin:8px 0 0;font-size:.88rem;border-left:3px solid var(--accent);padding:2px 10px;background:var(--soft);border-radius:0 8px 8px 0}
+.upd strong{color:var(--accent)}
+.link{display:inline-block;margin-top:8px;font-size:.85rem;color:var(--accent);text-decoration:none;font-weight:600}
+.link:hover{text-decoration:underline}
+.compact .card{padding:8px 12px;border-radius:10px;margin:6px 0;box-shadow:none}
+.compact .avatar,.compact .desc{display:none}
+.compact h3{font-size:.98rem;display:inline}
+.compact .club{display:inline;margin-left:8px}
+.compact .rows{font-size:.86rem;display:block}
+.compact .rows div{display:inline;margin-right:12px}
+.compact .chips{margin-top:4px}
+.empty{text-align:center;color:var(--muted);padding:60px 12px}
+footer{max-width:880px;margin:0 auto;padding:0 16px 30px;color:var(--muted);font-size:.8rem}
+@media (max-width:520px){.avatar{width:44px;height:44px}.card{padding:12px}}

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>uOttawa Events</title>
+  <meta name="description" content="Campus events from uOttawa clubs, collected from their public posts.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="bar">
+    <h1 class="brand"><span class="mark" aria-hidden="true"></span><span data-i18n="brand"></span></h1>
+    <div class="ctl">
+      <div class="seg" id="modeSeg" role="group">
+        <button data-mode="visual" data-i18n="visual"></button>
+        <button data-mode="compact" data-i18n="compact"></button>
+      </div>
+      <button id="filterBtn" class="pill" aria-expanded="false" aria-controls="filterPanel" data-i18n="filters"></button>
+      <div class="seg" id="langSeg" role="group" aria-label="Language / Langue">
+        <button data-lang="en">EN</button><button data-lang="fr">FR</button>
+      </div>
+    </div>
+  </div>
+  <nav class="tabs" id="tabs">
+    <button data-tab="upcoming" data-i18n="upcoming"></button>
+    <button data-tab="missed" data-i18n="missed"></button>
+  </nav>
+  <div id="filterPanel" class="panel" hidden></div>
+</header>
+<main id="list" aria-live="polite"></main>
+<footer id="foot"></footer>
+<script src="app.js"></script>
+</body>
+</html>
