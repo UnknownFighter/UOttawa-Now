@@ -79,7 +79,8 @@ def _scrape_group(token, jobs, first):
             continue
         info.setdefault("avatar_url", it.get("ownerProfilePicUrl") or it.get("profilePicUrl"))
         posts.append(Post("instagram", h, code, f"https://www.instagram.com/p/{code}/", it.get("caption") or "",
-                          datetime.fromisoformat(it["timestamp"].replace("Z", "+00:00")), _images(it)))
+                          datetime.fromisoformat(it["timestamp"].replace("Z", "+00:00")), _images(it),
+                          is_video=(it.get("type") == "Video" or it.get("productType") == "clips" or "/reel/" in (it.get("url") or ""))))
     return out
 
 

@@ -23,7 +23,7 @@ def build_event(post, ocr_text, account, terms, cfg):
     caption = post.caption or ""
     raw = (caption + "\n" + (ocr_text or "")).strip()   # merge caption + image text
     t = dates.norm(raw)
-    lang = details.language_info(t)
+    lang = details.language_info(t, raw)
     ref = post.taken_at.astimezone(tz).date()
     hits = dates.find_dates(t, ref, dmy=(lang["text_lang"] == "fr"))
     ev_hits = [h for h in hits if h.kind == "event"]
@@ -79,14 +79,16 @@ def build_event(post, ocr_text, account, terms, cfg):
     title_en = title_fr = title
     desc_en = desc_fr = desc
     translated_from = None
+    split = details.split_bilingual_title(title)          # "Resume Workshop | Atelier de CV"
     bi = details.split_bilingual(caption_d) if lang["langs"] == ["en", "fr"] else None
-    split = details.split_bilingual_title(title)
     if bi:
         title_en, title_fr = bi["title_en"] or title, bi["title_fr"] or title
         desc_en = details.clean_description(bi["en"], "")
         desc_fr = details.clean_description(bi["fr"], "")
-    elif split:
+    if split:
         title_en, title_fr = split
+    elif bi:
+        pass
     elif lang["note"] in ("only_en", "only_fr"):
         src = "en" if lang["note"] == "only_en" else "fr"
         dst = "fr" if src == "en" else "en"
@@ -114,5 +116,5 @@ def build_event(post, ocr_text, account, terms, cfg):
         "cost": details.find_cost(t),
         "languages": lang["langs"], "language_note": lang["note"], "translated_from": translated_from,
         "recurrence": recurrence, "dependency": dep or None,
-        "updates": [], "status": "active", "image": None,
+        "updates": [], "status": "active", "image": None, "is_reel": post.is_video, "posts": [],
     }

@@ -12,4 +12,5 @@ class Post:
     caption: str
     taken_at: datetime       # timezone-aware
     image_urls: list = field(default_factory=list)  # images to run OCR on
+    is_video: bool = False   # a Reel / video (we prefer still pictures for the poster)
     ocr_text: str = None     # only used by the demo (pre-supplied OCR text, skips real OCR)

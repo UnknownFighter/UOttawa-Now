@@ -16,6 +16,7 @@ from zoneinfo import ZoneInfo
 import yaml
 
 from . import dates, details, extract, ocr, storage, updates
+from .merge import merge_events
 from . import terms as terms_mod
 from .sources import get_source
 
@@ -67,6 +68,9 @@ def process_post(post, account, ctx):
     if old:                                           # caption was edited: keep history
         ev["updates"], ev["status"] = old["updates"], old["status"]
     ev["image"] = save_poster(post, ev["id"]) or (old or {}).get("image")
+    members = (old or {}).get("posts") or []                     # posts already merged into this event
+    ev["posts"] = [m for m in members if m["id"] != ev["id"]] + [
+        {"id": ev["id"], "url": post.url, "posted_at": post.taken_at.isoformat(), "is_reel": post.is_video, "image": ev["image"]}]
     ctx["events"][ev["id"]] = ev
     entry["event_id"] = ev["id"]
     return "new"
@@ -140,7 +144,7 @@ def main(demo=False):
         if acct:                                      # pick up edits made in config.yaml
             ev["club"].update(extract.club_names(acct))
             ev["category"] = acct.get("category", "other")
-    events = storage.prune(ctx["events"], now, cfg, tz)
+    events = storage.prune(merge_events(ctx["events"]), now, cfg, tz)
     payload = storage.public_payload(events, cfg, now)
     if demo:
         storage.write_json(ROOT / "site" / "data" / "events.demo.json", payload)

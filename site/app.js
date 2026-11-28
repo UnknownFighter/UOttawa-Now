@@ -10,6 +10,7 @@ const T = {
     g_missed: "Past week",
     empty_upcoming: "No upcoming events match your filters.", empty_missed: "Nothing missed in the past week.",
     empty_none: "No events yet. The first automatic update hasn't run.", load_error: "Could not load events. Please try again later.",
+    donation: "By donation", show_more: "Show more", show_less: "Show less",
     rsvp_yes: "RSVP required", rsvp_no: "Drop-in", free: "Free", paid: "Paid", cost_unknown: "Cost not stated", mixed: "{a} (free for some)",
     loc_unknown: "Location not stated", time_unknown: "time not stated", online: "Online", cancelled: "Cancelled", updated: "Updated",
     upd_cancelled: "This event has been cancelled.", upd_resched: "Rescheduled: {o} → {n}", upd_resched_x: "Rescheduled – check the original post for details.",
@@ -30,6 +31,7 @@ const T = {
     g_missed: "Semaine dernière",
     empty_upcoming: "Aucun événement à venir ne correspond à vos filtres.", empty_missed: "Rien de manqué la semaine dernière.",
     empty_none: "Aucun événement pour l'instant. La première mise à jour automatique n'a pas encore eu lieu.", load_error: "Impossible de charger les événements. Réessayez plus tard.",
+    donation: "Contribution volontaire", show_more: "Voir plus", show_less: "Voir moins",
     rsvp_yes: "Inscription requise", rsvp_no: "Sans inscription", free: "Gratuit", paid: "Payant", cost_unknown: "Coût non précisé", mixed: "{a} (gratuit pour certains)",
     loc_unknown: "Lieu non précisé", time_unknown: "heure non précisée", online: "En ligne", cancelled: "Annulé", updated: "Mis à jour",
     upd_cancelled: "Cet événement a été annulé.", upd_resched: "Reporté : {o} → {n}", upd_resched_x: "Reporté – consultez la publication d'origine.",
@@ -57,7 +59,8 @@ const state = {
   lang: store.get("lang", (navigator.language || "en").startsWith("fr") ? "fr" : "en"),
   tab: "upcoming",
   mode: store.get("mode", "visual"),
-  hidden: new Set(store.get("hidden", ["religion"]))     // religion is hidden by default
+  hidden: new Set(store.get("hidden", ["religion"])),    // religion is hidden by default
+  expanded: new Set()                                    // events whose full description is open
 };
 let DATA = null, TZ = "America/Toronto";
 const t = (k, vars = {}) => (T[state.lang][k] ?? k).replace(/\{(\w+)\}/g, (_, v) => vars[v] ?? "");
@@ -147,6 +150,7 @@ function whenText(i) {
 function costChip(c) {
   if (c.type === "free") return `<span class="chip free">${t("free")}</span>`;
   if (c.type === "paid") return `<span class="chip">${esc(c.amount || t("paid"))}</span>`;
+  if (c.type === "donation") return `<span class="chip">${esc(t("donation") + (c.amount ? " (" + c.amount + ")" : ""))}</span>`;
   if (c.type === "mixed") return `<span class="chip">${esc(t("mixed", { a: c.amount }))}</span>`;
   return `<span class="chip">${t("cost_unknown")}</span>`;
 }
@@ -186,7 +190,7 @@ function card(i) {
         <span class="chip ${ev.rsvp_required ? "rsvp" : ""}">${t(ev.rsvp_required ? "rsvp_yes" : "rsvp_no")}</span>
         ${costChip(ev.cost)}
       </div>
-      ${desc ? `<p class="desc" style="margin:8px 0 0;font-size:.9rem;white-space:pre-line">${esc(desc.length > 280 ? desc.slice(0, 280) + "…" : desc)}</p>` : ""}
+      ${desc ? `<div class="desc ${state.expanded.has(ev.id) ? "" : "clamp"}">${esc(desc)}</div><button class="more" data-more="${esc(ev.id)}" hidden>${t(state.expanded.has(ev.id) ? "show_less" : "show_more")}</button>` : ""}
       ${notes.map((n) => `<div class="note">${esc(n)}</div>`).join("")}
       ${updates}
       <a class="link" href="${esc(safeUrl)}" target="_blank" rel="noopener">${t("view_post")}</a>
@@ -218,6 +222,10 @@ function render() {
       : `<div class="empty">${t("empty_missed")}</div>`;
   }
   $("#list").innerHTML = html;
+  document.querySelectorAll(".desc").forEach((el) => {          // show the button only when the text is really cut off
+    const btn = el.nextElementSibling;
+    if (btn && btn.dataset.more) btn.hidden = el.classList.contains("clamp") ? !(el.scrollHeight > el.clientHeight + 1) : false;
+  });
 
   // filter panel
   $("#filterBtn").textContent = t("filters");
@@ -236,6 +244,7 @@ document.addEventListener("click", (e) => {
   if (b.dataset.lang) { state.lang = b.dataset.lang; store.set("lang", state.lang); }
   else if (b.dataset.mode) { state.mode = b.dataset.mode; store.set("mode", state.mode); }
   else if (b.dataset.tab) { state.tab = b.dataset.tab; }
+  else if (b.dataset.more) { const id = b.dataset.more; state.expanded.has(id) ? state.expanded.delete(id) : state.expanded.add(id); }
   else if (b.id === "filterBtn") {
     const p = $("#filterPanel"); p.hidden = !p.hidden; b.setAttribute("aria-expanded", String(!p.hidden)); return;
   } else return;

@@ -123,11 +123,13 @@ def find_dates(t, ref, dmy=False):
         if 1 <= mon <= 12:
             add(m, _mk(mon, day, y, ref))
 
-    if not [h for h in hits if h.kind != "until"]:   # relative dates only when there is no explicit date
-        m = re.search(r"\b(today|tonight|tonite|this evening|aujourd'?hui|ce soir)\b", t)
+    if not [h for h in hits if h.kind == "event"]:   # relative dates ("tomorrow") when no explicit EVENT date
+        m = re.search(r"\b(?:the day after tomorrow|apres[- ]demain)\b", t)
         if m:
+            hits.append(DateHit(ref + timedelta(days=2), None, m.start()))
+        elif (m := re.search(r"\b(?:today|tonight|tonite|2night|this evening|aujourd'?hui|ce soir)\b", t)):
             hits.append(DateHit(ref, None, m.start()))
-        elif (m := re.search(r"\b(tomorrow|demain)\b", t)):
+        elif (m := re.search(r"\b(?:tomorrow|tmrw|tmr|tmrw|2morrow|2moro|demain)\b", t)):
             hits.append(DateHit(ref + timedelta(days=1), None, m.start()))
         elif (m := re.search(r"\b(this weekend|ce week-?end|cette fin de semaine)\b", t)):
             hits.append(DateHit(next_weekday(ref, 5), None, m.start()))

@@ -10,7 +10,7 @@ def make(now):
     md = lambda n: f"{(now + timedelta(days=n)).strftime('%B')} {(now + timedelta(days=n)).day}"
     fr = lambda n: f"{(now + timedelta(days=n)).day} {FR_MONTHS[(now + timedelta(days=n)).month - 1]}"
     soon = (now + timedelta(minutes=95)).strftime("%I:%M %p").lstrip("0")
-    P = lambda h, i, cap, hrs_ago: Post("instagram", h, i, f"https://www.instagram.com/p/{i}/", cap, now - timedelta(hours=hrs_ago), [], "")
+    P = lambda h, i, cap, hrs_ago: Post("instagram", h, i, f"https://www.instagram.com/p/{i}/", cap, now - timedelta(hours=hrs_ago), [], ocr_text="")
     return [
         P("uo.ebc", "D1", f"Resume Workshop 🎓 | Atelier de CV\n📅 {md(3)}\n🕕 6-8 PM\n📍 STM 464\nFree! Gratuit! Register / Inscrivez-vous via the link in our bio. Join us for tips on your CV. Venez nous voir pour des conseils sur votre CV.", 24),
         P("ieeeuottawa", "D2", "Weekly Coding Night 💻\nEvery Thursday 7-9pm in CBY B205\nNo RSVP needed - drop-in! Bring your laptop and join the fun. Everyone is welcome to come and code with us.", 30),
@@ -24,6 +24,8 @@ def make(now):
         P("mtlbsauo", "D10", f"Save the date! Our annual gala is on {md(20)}. More details soon, join us for this big event!", 5),
         P("uo_ysa", "D11", f"Old event recap {md(-20)} at 6pm in UCU 101. Thank you to everyone who came!", 20 * 24),
         P("uo_ysa", "D12", "Thank you to everyone who came out, you are the best!", 3),
+        P("uo.ebc", "D16", f"Resume Workshop again! {md(3)}, 6-8 PM, STM 464. Tips for your CV.", 3),
+        P("uottawa_essaeg", "D17", "Open Mic Night 🎤 | Soirée micro ouvert\n📅 " + md(4) + "\n🕖 7-9 PM\n📍 UCU Agora\nIn support of the Ottawa Food Bank. Entry by donation (suggested $5) or a non-perishable item. Win a $50 gift card in our raffle!\nPerformers sign up at the link in our bio.\nBring your friends, bring your talent.\nSnacks and drinks will be available all night.\nEn appui à la Banque d'alimentation d'Ottawa. Entrée par contribution volontaire (5 $ suggéré). Venez en grand nombre!\nLes artistes peuvent s'inscrire au lien dans notre bio.", 8),
         P("uottawa_essaeg", "D13", f"Study session tonight {soon} @ MRT 252. Free pizza 🍕 Come and study with us, the exams are near!", 1),
         P("rwsa.uottawa", "D14", f"Cooking Workshop 1 of 2: {md(-2)} at 6pm in UCU 202. Learn to cook with us and join our team!", 4 * 24),
         P("rwsa.uottawa", "D15", f"Cooking Workshop 2 of 2: {md(4)} at 6pm in UCU 202. Learn to cook with us and join our team!", 4 * 24 - 1),

@@ -64,3 +64,8 @@ main{max-width:880px;margin:0 auto;padding:8px 16px 40px}
 .empty{text-align:center;color:var(--muted);padding:60px 12px}
 footer{max-width:880px;margin:0 auto;padding:0 16px 30px;color:var(--muted);font-size:.8rem}
 @media (max-width:520px){.avatar{width:44px;height:44px}.row{padding:12px}}
+
+.desc{margin:8px 0 0;font-size:.9rem;white-space:pre-line;overflow-wrap:anywhere}
+.desc.clamp{display:-webkit-box;-webkit-line-clamp:5;-webkit-box-orient:vertical;overflow:hidden}
+.more{background:none;border:0;color:var(--accent);padding:2px 0;font-weight:600;font-size:.85rem}
+.compact .more{display:none}

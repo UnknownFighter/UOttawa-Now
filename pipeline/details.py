@@ -55,8 +55,10 @@ def guess_title(caption, ocr):
                 c, i = parts[0], 1
                 while len(c) < 25 and i < len(parts):      # "C'EST DEMAIN !" alone is a bad title
                     c, i = c + " " + parts[i], i + 1
-                if len(c) > 90:
-                    c = c[:90].rsplit(" ", 1)[0] + "…"
+                if len(c) > 90:                            # still long: cut at the last comma/colon/dash, else at a word
+                    head = c[:90]
+                    k = max(head.rfind(", "), head.rfind(": "), head.rfind(" - "), head.rfind(" – "))
+                    c = head[:k] if k >= 30 else head.rsplit(" ", 1)[0] + "…"
             return _cut_at_date(c)
     return "Event"
 
@@ -79,27 +81,50 @@ def clean_description(caption, ocr):
     text = caption if (caption or "").strip() else (ocr or "")
     text = re.sub(r"(?:^|\s)#\w+", "", text)
     text = re.sub(r"\n{3,}", "\n\n", text).strip()
-    return text[:600] + ("…" if len(text) > 600 else "")
+    return text[:4000]
 
 
 # --------------------------------------------------------------- language
-EN_WORDS = set("the and of to in at for with is are will join our we you your this that from be come free all welcome us".split())
-FR_WORDS = set("le la les des du un une et est sont pour avec nous vous votre notre ce cette dans sur au aux venez joignez rejoignez gratuit soir rencontre inscription bienvenue de en ou".split())
+EN_WORDS = set("""the and of to in at for with is are was were will join our we you your this that from be been come free all
+welcome us it its but if so not what when where who how there they them their more about just get one whether new or as an can
+have has had bring see here night event just friends""".split())
+FR_WORDS = set("""le la les des du un une et est sont pour avec nous vous votre notre ce cette dans sur au aux venez joignez rejoignez
+gratuit soir rencontre inscription bienvenue de en ou qui que qu mais pas plus nos vos leur leurs ces cet etre sera seront soyez
+se sa son ses mon ma mes tu il elle ils elles ont fait tres tout tous toute toutes ici deja bref vraiment pensiez etait voit
+evenement soiree""".split())
 EN_ONLY = re.compile(r"english only|only in english|in english only|in english exclusively|uniquement en anglais|seulement en anglais|en anglais seulement|en anglais uniquement|anglais seulement")
 FR_ONLY = re.compile(r"french only|only in french|in french only|in french exclusively|uniquement en francais|seulement en francais|en francais seulement|en francais uniquement|francais seulement")
+ACCENTS = re.compile(r"[éèêëàâçùûîïôœÉÈÀÇ]")
 
 
-def lang_counts(t):
+def lang_counts(t, raw=None):
     words = re.findall(r"[a-z]+", t)
-    return sum(w in EN_WORDS for w in words), sum(w in FR_WORDS for w in words)
+    en, fr = sum(w in EN_WORDS for w in words), sum(w in FR_WORDS for w in words)
+    if raw:
+        fr += min(6, len(ACCENTS.findall(raw)))      # accented letters are strong evidence of French
+    return en, fr
 
 
-def language_info(t):
+def _clearly(line):
+    """'en' / 'fr' if this single line is clearly in one language, else None."""
+    from .dates import norm
+    en, fr = lang_counts(norm(line), line)
+    if en >= 2 and en > fr:
+        return "en"
+    if fr >= 2 and fr > en:
+        return "fr"
+    return None
+
+
+def language_info(t, raw=None):
     """t = normalised text. Returns langs offered, a disclaimer key and the main text language."""
-    en, fr = lang_counts(t)
+    en, fr = lang_counts(t, raw)
     main = "en" if en >= fr else "fr"
     en_only, fr_only = EN_ONLY.search(t), FR_ONLY.search(t)
-    bilingual = ("bilingual" in t or "bilingue" in t or (en >= 4 and fr >= 4 and min(en, fr) / (en + fr) >= 0.25))
+    sides = {_clearly(l) for l in (raw or "").splitlines() if len(re.findall(r"[A-Za-zÀ-ÿ]", l)) >= 12}
+    both_lines = "en" in sides and "fr" in sides        # at least one clear English line AND one clear French line
+    bilingual = ("bilingual" in t or "bilingue" in t or both_lines
+                 or (en >= 4 and fr >= 4 and min(en, fr) / (en + fr) >= 0.25))
     if bilingual or (en_only and fr_only):
         return {"langs": ["en", "fr"], "note": None, "text_lang": "both"}
     if en_only:
@@ -120,14 +145,16 @@ def split_bilingual(caption):
         c = clean_line(line)
         if not c or _is_language_note(c):
             continue
-        en, fr = lang_counts(norm(c))
+        en, fr = lang_counts(norm(c), c)
         side = "en" if en > fr else "fr" if fr > en else None
         if side != "fr":
             en_lines.append(line)
         if side != "en":
             fr_lines.append(line)
-        if side and side not in titles and len(re.findall(r"[A-Za-zÀ-ÿ]", c)) >= 4 and not SKIP_LINE.match(c):
-            titles[side] = _cut_at_date(c) if len(c) <= 90 else guess_title(line, "")
+        if len(re.findall(r"[A-Za-zÀ-ÿ]", c)) >= 4 and not SKIP_LINE.match(c):
+            t_line = _cut_at_date(c) if len(c) <= 90 else guess_title(line, "")
+            for sd in ((side,) if side else ("en", "fr")):   # a line with no clear language can be the title in both
+                titles.setdefault(sd, t_line)
     en_text, fr_text = "\n".join(en_lines).strip(), "\n".join(fr_lines).strip()
     if len(en_text) < 15 or len(fr_text) < 15:
         return None
@@ -135,14 +162,14 @@ def split_bilingual(caption):
 
 
 def split_bilingual_title(title):
-    """'Resume Workshop | Atelier de CV' -> ('Resume Workshop', 'Atelier de CV')"""
+    """'Resume Workshop | Atelier de CV' -> ('Resume Workshop', 'Atelier de CV'). Whichever half looks more French is the French one."""
     from .dates import norm
     parts = [p.strip() for p in re.split(r"\s[|/]\s", title) if p.strip()]
     if len(parts) == 2:
-        a, b = (lang_counts(norm(p)) for p in parts)
-        if a[0] > a[1] and b[1] > b[0]:
+        score = [lang_counts(norm(p), p)[1] - lang_counts(norm(p), p)[0] for p in parts]   # french minus english evidence
+        if score[0] < score[1]:
             return parts[0], parts[1]
-        if a[1] > a[0] and b[0] > b[1]:
+        if score[0] > score[1]:
             return parts[1], parts[0]
     return None
 
@@ -155,7 +182,12 @@ VENUE = re.compile(r"\b(?:University Centre|UCU|Tabaret(?: Hall)?|Lamoureux(?: H
                    r"Jock Turcot)\b(?:\s+(?:room\s+|salle\s+)?[A-Z]?\d{2,4}[A-Z]?)?", re.I)
 ROOM_LABEL = re.compile(r"\b(?:room|salle|local)\s+[A-Z]{0,4}\s?\d{2,4}[A-Z]?\b", re.I)
 ROOM_CODE = re.compile(r"(?:\bat|\bin|\bà|\bdans|@)\s+([A-Z]{2,5}\s?[A-Z]?\d{3,4}[A-Z]?)\b")
+BUILDING = re.compile(r"\b(?:CRX|STM|CBY|DMS|FSS|MRT|SITE|MNO|LMX|FTX|TBT|HRN|VNR|UCU|MCD|SMD)\s?[A-Z]?\d{2,4}[A-Z]?\b")  # extend this list if needed
 ONLINE = re.compile(r"\b(?:zoom|google meet|teams|online|en ligne|virtual|virtuel|discord)\b", re.I)
+
+
+LOC_PHRASE = re.compile(r"\b(?:location|located|held|taking place|happening)\s+(?:is\s+)?(?:at|in)\s+(?:the\s+)?"
+                        r"([A-Z][\w'’.\- ]{2,50}?)(?=[.,;)\n!]|\s+on\s|\s+at\s+\d|$)")
 
 
 def find_location(raw):
@@ -171,10 +203,13 @@ def find_location(raw):
         seg = clean_line(seg or "")
         if len(seg) >= 2:
             return {"text": seg[:80], "online": bool(ONLINE.fullmatch(seg))}
-    for rx, grp in ((VENUE, 0), (ROOM_LABEL, 0), (ROOM_CODE, 1)):
+    for rx, grp in ((VENUE, 0), (ROOM_LABEL, 0), (ROOM_CODE, 1), (BUILDING, 0)):
         m = rx.search(raw)
         if m:
             return {"text": m.group(grp).strip(), "online": False}
+    m = LOC_PHRASE.search(raw)
+    if m:
+        return {"text": m.group(1).strip(" .,;"), "online": False}
     if ONLINE.search(raw):
         return {"text": "Online", "online": True}
     return None
@@ -192,18 +227,34 @@ def find_rsvp(t):
 
 
 FREE = re.compile(r"free (?:admission|entry|event|of charge|to attend)|no cost|no charge|entree libre|sans frais|gratuit|"
-                  r"\bfree\b(?! (?:food|pizza|swag|merch|snacks?|drinks?|coffee|tea|lunch|breakfast|dinner|stuff|t-?shirts?))")
+                  r"\bfree\b(?! (?:food|pizza|swag|merch|snacks?|drinks?|coffee|tea|lunch|breakfast|dinner|stuff|t-?shirts?|prizes?|gifts?|giveaways?))")
 PRICE = re.compile(r"\$\s?(\d+(?:[.,]\d{1,2})?)|(\d+(?:[.,]\d{1,2})?)\s?\$")
+DONATION = re.compile(r"donation|pay what you can|\bpwyc\b|contribution volontaire|don suggere|a prix libre|by donation")
+PRIZE = re.compile(r"\b(?:win|won|winner|winners|prize|prizes|giveaway|giveaways|gift ?cards?|raffle|draw|worth|valued|valeur|"
+                   r"gagner|gagnez|gagnant|prix|tirage|concours|cadeau|chance)\b")
+
+
+def _is_prize_price(t, m):
+    """A $ amount inside a sentence about winning things is a prize, not a cost."""
+    start = max(t.rfind(".", 0, m.start()), t.rfind("\n", 0, m.start()), t.rfind("!", 0, m.start()), m.start() - 120)
+    ends = [i for i in (t.find(".", m.end()), t.find("\n", m.end()), t.find("!", m.end())) if i != -1]
+    end = min(ends + [m.end() + 120])
+    return bool(PRIZE.search(t[start + 1:end]))
 
 
 def find_cost(t):
-    free, price = FREE.search(t), PRICE.search(t)
+    """t = normalised text. Prices in 'win a $50 gift card' sentences are ignored."""
+    free = FREE.search(t)
+    prices = [m for m in PRICE.finditer(t) if not _is_prize_price(t, m)]
     amount = None
-    if price:
-        amount = "$" + (price.group(1) or price.group(2)).replace(",", ".")
-    if free and price:
+    if prices:
+        m = prices[0]
+        amount = "$" + (m.group(1) or m.group(2)).replace(",", ".")
+    if DONATION.search(t):
+        return {"type": "donation", "amount": amount}
+    if free and prices:
         return {"type": "mixed", "amount": amount}
-    if price:
+    if prices:
         return {"type": "paid", "amount": amount}
     if free:
         return {"type": "free", "amount": None}
