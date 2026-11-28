@@ -2,7 +2,7 @@ name: Update events and deploy site
 
 on:
   schedule:
-    - cron: "17 */6 * * *"        # every 6 hours (the most frequent allowed for this project)
+    - cron: "17 11 * * *"          # once a day, 11:17 UTC (about 6:17 am Ottawa time)
   workflow_dispatch:               # lets you press "Run workflow" by hand
   push:
     branches: [main]
@@ -41,9 +41,8 @@ jobs:
 
       - name: Scrape, OCR, extract events
         if: github.event_name != 'push'
-        env:                         # optional logged-in Instagram session (see README)
-          IG_USERNAME: ${{ secrets.IG_USERNAME }}
-          IG_SESSION_B64: ${{ secrets.IG_SESSION_B64 }}
+        env:
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
         run: python -m pipeline.run
 
       - name: Save new data to the repository

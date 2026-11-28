@@ -3,7 +3,7 @@
 # ============================================================
 timezone: America/Toronto
 posts_per_run: 10        # posts fetched per account on each scheduled run
-posts_first_run: 50      # posts fetched the very first time an account is scraped
+posts_first_run: 15      # posts fetched the very first time an account is scraped
 missed_days: 7           # how long past events stay in the "Missed" tab
 upcoming_days: 31        # how far ahead the site shows events
 
