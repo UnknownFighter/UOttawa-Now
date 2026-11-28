@@ -29,6 +29,23 @@ def save_avatar(url, handle, folder):
         print(f"  avatar for {handle} failed: {e}")
 
 
+def save_image(url, path, max_width=720):
+    """Download a post picture, shrink it (small files = fast site) and save it as a JPEG."""
+    try:
+        import requests
+        from io import BytesIO
+        from PIL import Image
+        img = Image.open(BytesIO(requests.get(url, timeout=30).content)).convert("RGB")
+        if img.width > max_width:
+            img = img.resize((max_width, round(img.height * max_width / img.width)))
+        Path(path).parent.mkdir(parents=True, exist_ok=True)
+        img.save(path, "JPEG", quality=72, optimize=True)
+        return True
+    except Exception as e:
+        print(f"  poster download failed: {str(e)[:100]}")
+        return False
+
+
 def _end_of_day(d, tz):
     return datetime.combine(d, time(23, 59, 59), tzinfo=tz)
 

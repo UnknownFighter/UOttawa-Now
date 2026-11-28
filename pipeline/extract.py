@@ -8,6 +8,16 @@ from . import terms as terms_mod
 from .translate import translate
 
 
+def club_names(account):
+    """name_en/name_fr and acronym_en/acronym_fr from config.yaml. A plain name/acronym works for both
+    languages, and if only one language is filled in it is used for the other."""
+    def pick(key):
+        en = account.get(f"{key}_en") or account.get(key) or ""
+        fr = account.get(f"{key}_fr") or account.get(key) or ""
+        return {"en": en or fr, "fr": fr or en}
+    return {"name": pick("name"), "acronym": pick("acronym")}
+
+
 def build_event(post, ocr_text, account, terms, cfg):
     tz = ZoneInfo(cfg["timezone"])
     caption = post.caption or ""
@@ -63,12 +73,19 @@ def build_event(post, ocr_text, account, terms, cfg):
         dep.update({"series_key": f"{post.handle}:{key}", "index": ser["index"], "total": ser["total"]})
 
     # ---- title / description in both languages
-    desc = details.clean_description(caption, ocr_text)
+    location = details.find_location(raw)
+    caption_d = details.strip_info_lines(caption, bool(location), start_t is not None)
+    desc = details.clean_description(caption_d, ocr_text)
     title_en = title_fr = title
     desc_en = desc_fr = desc
     translated_from = None
+    bi = details.split_bilingual(caption_d) if lang["langs"] == ["en", "fr"] else None
     split = details.split_bilingual_title(title)
-    if split:
+    if bi:
+        title_en, title_fr = bi["title_en"] or title, bi["title_fr"] or title
+        desc_en = details.clean_description(bi["en"], "")
+        desc_fr = details.clean_description(bi["fr"], "")
+    elif split:
         title_en, title_fr = split
     elif lang["note"] in ("only_en", "only_fr"):
         src = "en" if lang["note"] == "only_en" else "fr"
@@ -85,17 +102,17 @@ def build_event(post, ocr_text, account, terms, cfg):
         "id": f"{post.platform}:{post.post_id}",
         "platform": post.platform, "post_id": post.post_id, "post_url": post.url,
         "posted_at": post.taken_at.isoformat(),
-        "club": {"handle": account["handle"], "name": account.get("name") or "", "acronym": account.get("acronym") or "", "avatar": None},
+        "club": {"handle": account["handle"], **club_names(account), "avatar": None},
         "category": account.get("category", "other"), "tags": [account.get("category", "other")],
         "title": {"en": title_en, "fr": title_fr},
         "description": {"en": desc_en, "fr": desc_fr},
         "start": start.isoformat(), "end": end.isoformat() if end else None,
         "end_date": end_date.isoformat() if end_date else None,
         "date_only": start_t is None, "duration_min": duration,
-        "location": details.find_location(raw),
+        "location": location,
         "rsvp_required": details.find_rsvp(t),
         "cost": details.find_cost(t),
         "languages": lang["langs"], "language_note": lang["note"], "translated_from": translated_from,
         "recurrence": recurrence, "dependency": dep or None,
-        "updates": [], "status": "active",
+        "updates": [], "status": "active", "image": None,
     }

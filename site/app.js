@@ -121,9 +121,11 @@ function groupOf(i, now) {
 }
 
 // ---------- drawing
+const byLang = (v) => (v && typeof v === "object" ? v[state.lang] || "" : v || "");   // {en, fr} or plain text
 function clubName(c) {
-  if (c.name && c.acronym) return `${c.name} (${c.acronym})`;
-  return c.name || c.acronym || "@" + c.handle;
+  const name = byLang(c.name), acr = byLang(c.acronym);
+  if (name && acr) return `${name} (${acr})`;
+  return name || acr || "@" + c.handle;
 }
 function updateText(u) {
   const nd = (iso) => `${fDate(new Date(iso))} ${fTime(new Date(iso))}`;
@@ -153,7 +155,7 @@ function card(i) {
   const name = clubName(ev.club);
   const avatar = ev.club.avatar
     ? `<img class="avatar" src="${esc(ev.club.avatar)}" alt="" loading="lazy">`
-    : `<div class="avatar" aria-hidden="true">${esc((ev.club.acronym || ev.club.handle).slice(0, 2).toUpperCase())}</div>`;
+    : `<div class="avatar" aria-hidden="true">${esc((byLang(ev.club.acronym) || ev.club.handle).slice(0, 2).toUpperCase())}</div>`;
   const place = ev.location ? (ev.location.online ? t("online") + (ev.location.text !== "Online" ? " – " + esc(ev.location.text) : "") : esc(ev.location.text)) : t("loc_unknown");
   const notes = [];
   if (ev.language_note) notes.push(t(ev.language_note));
@@ -167,7 +169,11 @@ function card(i) {
   const safeUrl = /^https:\/\//.test(ev.post_url) ? ev.post_url : "#";
   const updates = (ev.updates || []).map((u) =>
     `<div class="upd"><strong>${t("updated")}:</strong> ${esc(updateText(u))} <a class="link" href="${esc(u.url)}" target="_blank" rel="noopener">${t("upd_post")} ↗</a></div>`).join("");
+  const poster = ev.image
+    ? `<a class="poster-link" href="${esc(safeUrl)}" target="_blank" rel="noopener"><img class="poster" src="${esc(ev.image)}" alt="${esc(ev.title[L])}" loading="lazy"></a>` : "";
   return `<article class="card ${ev.status === "cancelled" ? "cancelled" : ""}">
+    ${poster}
+    <div class="row">
     ${avatar}
     <div class="body">
       <h3>${esc(ev.title[L])}</h3><div class="club">${esc(name)}</div>
@@ -184,7 +190,7 @@ function card(i) {
       ${notes.map((n) => `<div class="note">${esc(n)}</div>`).join("")}
       ${updates}
       <a class="link" href="${esc(safeUrl)}" target="_blank" rel="noopener">${t("view_post")}</a>
-    </div></article>`;
+    </div></div></article>`;
 }
 
 function render() {

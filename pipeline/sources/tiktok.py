@@ -5,7 +5,7 @@ from datetime import datetime, timezone
 from ..models import Post
 
 
-def fetch(account, limit):
+def fetch(account, limit, first=False):
     import yt_dlp
     handle = account["handle"]
     opts = {"quiet": True, "skip_download": True, "playlistend": limit, "ignoreerrors": True}

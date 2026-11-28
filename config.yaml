@@ -22,31 +22,32 @@ categories:
 #  ACCOUNTS. To add one, copy a line and change the handle.
 #  handle   = account name without the @
 #  category = one of the ids above (my best guess - PLEASE CHECK each one)
-#  name     = FULL club name  (TODO: fill in)      acronym = e.g. "MSA" (TODO)
+#  name_en/name_fr = FULL club name in each language (TODO: fill in)
+#  acronym_en/acronym_fr = club acronym in each language (TODO: fill in)
 #  Until filled in, the site shows "@handle" as the club name.
 # ------------------------------------------------------------
 accounts:
   instagram:
-    - {handle: uo.ebc,                    category: networking, name: "", acronym: ""}
-    - {handle: mtlbsauo,                  category: culture,    name: "", acronym: ""}
-    - {handle: rwsa.uottawa,              category: culture,    name: "", acronym: ""}
-    - {handle: nsbeuottawa,               category: networking, name: "", acronym: ""}
-    - {handle: uossa.aesuo,               category: culture,    name: "", acronym: ""}
-    - {handle: maison_i_house,            category: culture,    name: "", acronym: ""}
-    - {handle: ieeeuottawa,               category: networking, name: "", acronym: ""}
-    - {handle: uottawa_essaeg,            category: academic,   name: "", acronym: ""}
-    - {handle: genie_engineering_uottawa, category: academic,   name: "", acronym: ""}
-    - {handle: uomsa.aemuo,               category: religion,   name: "", acronym: ""}
-    - {handle: aeeippssa.uo,              category: academic,   name: "", acronym: ""}
-    - {handle: food_bank_aliment,         category: food,       name: "", acronym: ""}
-    - {handle: uo.bsa,                    category: culture,    name: "", acronym: ""}
-    - {handle: uo_ysa,                    category: culture,    name: "", acronym: ""}
-    - {handle: tsa.uottawa,               category: culture,    name: "", acronym: ""}
-    - {handle: uottawa.susa,              category: culture,    name: "", acronym: ""}
+    - {handle: uo.ebc,                    category: networking, name_en: "", name_fr: "", acronym_en: "", acronym_fr: ""}
+    - {handle: mtlbsauo,                  category: culture,    name_en: "", name_fr: "", acronym_en: "", acronym_fr: ""}
+    - {handle: rwsa.uottawa,              category: culture,    name_en: "", name_fr: "", acronym_en: "", acronym_fr: ""}
+    - {handle: nsbeuottawa,               category: networking, name_en: "", name_fr: "", acronym_en: "", acronym_fr: ""}
+    - {handle: uossa.aesuo,               category: culture,    name_en: "", name_fr: "", acronym_en: "", acronym_fr: ""}
+    - {handle: maison_i_house,            category: culture,    name_en: "", name_fr: "", acronym_en: "", acronym_fr: ""}
+    - {handle: ieeeuottawa,               category: networking, name_en: "", name_fr: "", acronym_en: "", acronym_fr: ""}
+    - {handle: uottawa_essaeg,            category: academic,   name_en: "", name_fr: "", acronym_en: "", acronym_fr: ""}
+    - {handle: genie_engineering_uottawa, category: academic,   name_en: "", name_fr: "", acronym_en: "", acronym_fr: ""}
+    - {handle: uomsa.aemuo,               category: religion,   name_en: "", name_fr: "", acronym_en: "", acronym_fr: ""}
+    - {handle: aeeippssa.uo,              category: academic,   name_en: "", name_fr: "", acronym_en: "", acronym_fr: ""}
+    - {handle: food_bank_aliment,         category: food,       name_en: "", name_fr: "", acronym_en: "", acronym_fr: ""}
+    - {handle: uo.bsa,                    category: culture,    name_en: "", name_fr: "", acronym_en: "", acronym_fr: ""}
+    - {handle: uo_ysa,                    category: culture,    name_en: "", name_fr: "", acronym_en: "", acronym_fr: ""}
+    - {handle: tsa.uottawa,               category: culture,    name_en: "", name_fr: "", acronym_en: "", acronym_fr: ""}
+    - {handle: uottawa.susa, category: culture, name_en: "Sudanese Students Association", name_fr: "Association des étudiants soudanais", acronym_en: "SUSA", acronym_fr: "AÉS"}
 
   # >>> TIKTOK ACCOUNTS GO HERE (same format as above). Example:
   # tiktok:
-  #   - {handle: some_club, category: sports, name: "Some Club", acronym: "SC"}
+  #   - {handle: some_club, category: sports, name_en: "", name_fr: "", acronym_en: "", acronym_fr: ""}
   tiktok: []
 
 # ------------------------------------------------------------

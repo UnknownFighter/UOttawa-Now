@@ -16,6 +16,17 @@ def clean_line(s):
 SKIP_LINE = re.compile(r"^(?:when|where|date|time|quand|lieu|location|ou|où|heure)\b", re.I)
 
 
+NOTE_LANG = re.compile(r"\b(english|french|francais|anglais|version)\b")
+NOTE_WORDS = re.compile(r"follow|below|suit|dessous|suivre|\bbas\b")
+
+
+def _is_language_note(c):
+    """'(English follows)', 'Version française ci-dessous'... are not titles."""
+    from .dates import norm
+    n = norm(c)
+    return len(n) < 60 and bool(NOTE_LANG.search(n) and NOTE_WORDS.search(n))
+
+
 def _cut_at_date(c):
     """'Cooking Workshop 1 of 2: November 23 at 6pm' -> 'Cooking Workshop 1 of 2' (keep only the name part)."""
     from . import dates
@@ -37,14 +48,31 @@ def guess_title(caption, ocr):
     for src in (caption, ocr):                       # caption first, poster text second
         for line in (src or "").splitlines():
             c = clean_line(line)
-            if len(re.findall(r"[A-Za-zÀ-ÿ]", c)) < 4 or SKIP_LINE.match(c):
+            if len(re.findall(r"[A-Za-zÀ-ÿ]", c)) < 4 or SKIP_LINE.match(c) or _is_language_note(c):
                 continue
             if len(c) > 90:
-                c = re.split(r"(?<=[.!?])\s", c)[0]
+                parts = re.split(r"(?<=[.!?])\s", c)
+                c, i = parts[0], 1
+                while len(c) < 25 and i < len(parts):      # "C'EST DEMAIN !" alone is a bad title
+                    c, i = c + " " + parts[i], i + 1
                 if len(c) > 90:
                     c = c[:90].rsplit(" ", 1)[0] + "…"
             return _cut_at_date(c)
     return "Event"
+
+
+INFO_PIN = re.compile(r"^\s*[📍📌🏢]")
+INFO_TIME = re.compile(r"^\s*[📅🗓🕒🕐-🕧⏰⏱🕰ℹ]")
+
+
+def strip_info_lines(text, has_location, has_time):
+    """Drop '📍 place' and '🕒 time' lines when those facts are already shown as their own fields."""
+    out = []
+    for line in (text or "").splitlines():
+        if (has_location and INFO_PIN.match(line)) or (has_time and INFO_TIME.match(line)):
+            continue
+        out.append(line)
+    return "\n".join(out)
 
 
 def clean_description(caption, ocr):
@@ -81,6 +109,29 @@ def language_info(t):
     if en + fr < 3:
         return {"langs": [], "note": None, "text_lang": main}
     return {"langs": [main], "note": "maybe_" + main, "text_lang": main}
+
+
+def split_bilingual(caption):
+    """Posts that contain both languages: sort the caption line by line into an English text and a
+    French text (lines with no clear language, like dates and places, go into both)."""
+    from .dates import norm
+    en_lines, fr_lines, titles = [], [], {}
+    for line in (caption or "").splitlines():
+        c = clean_line(line)
+        if not c or _is_language_note(c):
+            continue
+        en, fr = lang_counts(norm(c))
+        side = "en" if en > fr else "fr" if fr > en else None
+        if side != "fr":
+            en_lines.append(line)
+        if side != "en":
+            fr_lines.append(line)
+        if side and side not in titles and len(re.findall(r"[A-Za-zÀ-ÿ]", c)) >= 4 and not SKIP_LINE.match(c):
+            titles[side] = _cut_at_date(c) if len(c) <= 90 else guess_title(line, "")
+    en_text, fr_text = "\n".join(en_lines).strip(), "\n".join(fr_lines).strip()
+    if len(en_text) < 15 or len(fr_text) < 15:
+        return None
+    return {"en": en_text, "fr": fr_text, "title_en": titles.get("en"), "title_fr": titles.get("fr")}
 
 
 def split_bilingual_title(title):
