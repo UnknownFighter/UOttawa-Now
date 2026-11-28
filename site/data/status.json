@@ -1,100 +1,100 @@
 {
- "last_run": "2026-11-27T19:12:21.674679-05:00",
+ "last_run": "2026-11-27T23:56:28.569551-05:00",
  "accounts": {
   "instagram:uo.ebc": {
    "ok": true,
-   "posts": 1,
-   "new": 0,
+   "posts": 9,
+   "new": 4,
    "updates": 0
   },
   "instagram:mtlbsauo": {
    "ok": true,
-   "posts": 0,
-   "new": 0,
+   "posts": 11,
+   "new": 3,
    "updates": 0
   },
   "instagram:rwsa.uottawa": {
    "ok": true,
-   "posts": 1,
-   "new": 0,
+   "posts": 12,
+   "new": 8,
    "updates": 0
   },
   "instagram:nsbeuottawa": {
    "ok": true,
-   "posts": 0,
-   "new": 0,
+   "posts": 13,
+   "new": 3,
    "updates": 0
   },
   "instagram:uossa.aesuo": {
    "ok": true,
-   "posts": 0,
-   "new": 0,
+   "posts": 11,
+   "new": 7,
    "updates": 0
   },
   "instagram:maison_i_house": {
    "ok": true,
-   "posts": 1,
-   "new": 0,
+   "posts": 7,
+   "new": 7,
    "updates": 0
   },
   "instagram:ieeeuottawa": {
    "ok": true,
-   "posts": 4,
-   "new": 1,
+   "posts": 15,
+   "new": 8,
    "updates": 0
   },
   "instagram:uottawa_essaeg": {
    "ok": true,
-   "posts": 1,
-   "new": 0,
+   "posts": 13,
+   "new": 8,
    "updates": 0
   },
   "instagram:genie_engineering_uottawa": {
    "ok": true,
-   "posts": 0,
-   "new": 0,
+   "posts": 11,
+   "new": 4,
    "updates": 0
   },
   "instagram:uomsa.aemuo": {
    "ok": true,
-   "posts": 2,
-   "new": 2,
-   "updates": 0
+   "posts": 15,
+   "new": 14,
+   "updates": 1
   },
   "instagram:aeeippssa.uo": {
    "ok": true,
-   "posts": 1,
-   "new": 1,
+   "posts": 9,
+   "new": 6,
    "updates": 0
   },
   "instagram:food_bank_aliment": {
    "ok": true,
-   "posts": 0,
-   "new": 0,
+   "posts": 10,
+   "new": 6,
    "updates": 0
   },
   "instagram:uo.bsa": {
    "ok": true,
-   "posts": 0,
-   "new": 0,
+   "posts": 15,
+   "new": 8,
    "updates": 0
   },
   "instagram:uo_ysa": {
    "ok": true,
-   "posts": 0,
-   "new": 0,
+   "posts": 10,
+   "new": 7,
    "updates": 0
   },
   "instagram:tsa.uottawa": {
    "ok": true,
-   "posts": 0,
-   "new": 0,
+   "posts": 11,
+   "new": 4,
    "updates": 0
   },
   "instagram:uottawa.susa": {
    "ok": true,
-   "posts": 2,
-   "new": 2,
+   "posts": 15,
+   "new": 8,
    "updates": 0
   }
  }

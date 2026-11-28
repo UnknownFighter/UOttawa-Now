@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T19:12:21.674679-05:00",
+ "generated_at": "2026-11-27T23:56:28.569551-05:00",
  "timezone": "America/Toronto",
  "categories": [
   {
@@ -45,15 +45,452 @@
  ],
  "events": [
   {
-   "id": "instagram:DgP-yvvlfNe",
+   "id": "instagram:DfzzDgBlryp",
    "platform": "instagram",
-   "post_id": "DgP-yvvlfNe",
-   "post_url": "https://www.instagram.com/p/DgP-yvvlfNe/",
-   "posted_at": "2026-11-27T15:16:36+00:00",
+   "post_id": "DfzzDgBlryp",
+   "post_url": "https://www.instagram.com/p/DfzzDgBlryp/",
+   "posted_at": "2026-11-16T16:35:02+00:00",
+   "club": {
+    "handle": "uo.bsa",
+    "name": {
+     "en": "",
+     "fr": ""
+    },
+    "acronym": {
+     "en": "",
+     "fr": ""
+    },
+    "avatar": null
+   },
+   "category": "culture",
+   "tags": [
+    "culture"
+   ],
+   "title": {
+    "en": "Find us on Thursday at Global Village!",
+    "fr": "Retrouvez-nous ce jeudi au « Village Mondial » de !"
+   },
+   "description": {
+    "en": "Find us on Thursday at @maison_i_house‘s Global Village! Cheer and support our Balkan members who will model in traditional attire for the cultural fashion show! Cultural dishes and snacks will be provided ✨\n🌟VOTE THE BALKAN TEAM!🌟",
+    "fr": "Retrouvez-nous ce jeudi au « Village Mondial » de @maison_i_house ! Venez encourager nos membres des Balkans qui défileront en tenues traditionnelles lors du défilé de mode culturel ! Des plats et des collations typiques seront proposés ✨"
+   },
+   "start": "2026-11-19T12:00:00-05:00",
+   "end": "2027-11-12T15:00:00-05:00",
+   "end_date": "2027-11-12",
+   "date_only": false,
+   "duration_min": 515700,
+   "location": {
+    "text": "Thursday, November 19th - 12-3:00 PM @ UCU Agora",
+    "online": false
+   },
+   "rsvp_required": false,
+   "cost": {
+    "type": "unknown",
+    "amount": null
+   },
+   "languages": [
+    "en",
+    "fr"
+   ],
+   "language_note": null,
+   "translated_from": null,
+   "recurrence": null,
+   "dependency": null,
+   "updates": [],
+   "status": "active",
+   "image": "data/posters/1ae4726d842d.jpg"
+  },
+  {
+   "id": "instagram:DfiVX2qRc7o",
+   "platform": "instagram",
+   "post_id": "DfiVX2qRc7o",
+   "post_url": "https://www.instagram.com/p/DfiVX2qRc7o/",
+   "posted_at": "2026-11-09T21:54:41+00:00",
+   "club": {
+    "handle": "uossa.aesuo",
+    "name": {
+     "en": "",
+     "fr": ""
+    },
+    "acronym": {
+     "en": "",
+     "fr": ""
+    },
+    "avatar": null
+   },
+   "category": "culture",
+   "tags": [
+    "culture"
+   ],
+   "title": {
+    "en": "Secret agent… until the director calls cut",
+    "fr": "Agent secret… jusqu’au clap de fin"
+   },
+   "description": {
+    "en": "Vendredi 20 novembre 2026\nLEES 142\nSecret agent… until the director calls cut. 🎬🕶️\nThe mission was just a scene. What happens next? That’s your part to play.\nPRIME TIME 2 is coming. Your teams, your knowledge, your moment in the spotlight. 🔥\nFriday, November 20, 2026\nLEES 142\nReady to take the lead?",
+    "fr": "Agent secret… jusqu’au clap de fin. 🎬🕶️\nLa mission n’était qu’une scène. La suite ? C’est vous qui la jouez.\nPRIME TIME 2 arrive. Vos équipes, vos connaissances, votre moment sous les projecteurs. 🔥\nVendredi 20 novembre 2026\nLEES 142\nPrêts à tenir le premier rôle ?\nFriday, November 20, 2026\nLEES 142"
+   },
+   "start": "2026-11-20T00:00:00-05:00",
+   "end": null,
+   "end_date": null,
+   "date_only": true,
+   "duration_min": null,
+   "location": {
+    "text": "Online",
+    "online": true
+   },
+   "rsvp_required": false,
+   "cost": {
+    "type": "unknown",
+    "amount": null
+   },
+   "languages": [
+    "en",
+    "fr"
+   ],
+   "language_note": null,
+   "translated_from": null,
+   "recurrence": null,
+   "dependency": null,
+   "updates": [],
+   "status": "active",
+   "image": "data/posters/849f7b0f0925.jpg"
+  },
+  {
+   "id": "instagram:Dfsl-2luqPE",
+   "platform": "instagram",
+   "post_id": "Dfsl-2luqPE",
+   "post_url": "https://www.instagram.com/p/Dfsl-2luqPE/",
+   "posted_at": "2026-11-13T21:29:29+00:00",
+   "club": {
+    "handle": "uottawa_essaeg",
+    "name": {
+     "en": "",
+     "fr": ""
+    },
+    "acronym": {
+     "en": "",
+     "fr": ""
+    },
+    "avatar": null
+   },
+   "category": "academic",
+   "tags": [
+    "academic"
+   ],
+   "title": {
+    "en": "Have you ever had the chance to drive a real life racecar?",
+    "fr": "Avez-vous déjà eu la chance de conduire une vraie voiture de course ?"
+   },
+   "description": {
+    "en": "Have you ever had the chance to drive a real life racecar? Well, we can’t give you that opportunity, but we can let you experience what it would feel like! Join us on the 20th of November in CBY A04 to race around a VR racetrack, try to get the fastest lap and win a prize! The racecar simulator has 6-axis system, which means you’ll experience all the vibrations and sensations that you would in a real racecar! Not only that, but you’ll also be able to talk to Double Apex, and learn about the whole process of creating the simulator from the francophone engineers who made it!",
+    "fr": "Avez-vous déjà eu la chance de conduire une vraie voiture de course ? Bon, on ne peut pas vous offrir cette opportunité, mais on peut vous faire vivre l’expérience ! Joignez-vous à nous le 20 novembre dans la salle CBY A04 pour faire la course sur un circuit en réalité virtuelle, tenter de faire le meilleur tour de piste et gagner un prix ! Le simulateur de course est équipé d’un système à 6 axes, ce qui signifie que vous ressentirez toutes les vibrations et les sensations que vous éprouveriez dans une vraie voiture de course ! Mais ce n’est pas tout : vous pourrez également discuter avec Doub…"
+   },
+   "start": "2026-11-20T00:00:00-05:00",
+   "end": null,
+   "end_date": null,
+   "date_only": true,
+   "duration_min": null,
+   "location": null,
+   "rsvp_required": false,
+   "cost": {
+    "type": "unknown",
+    "amount": null
+   },
+   "languages": [
+    "en",
+    "fr"
+   ],
+   "language_note": null,
+   "translated_from": null,
+   "recurrence": null,
+   "dependency": null,
+   "updates": [],
+   "status": "active",
+   "image": "data/posters/689e453e7e92.jpg"
+  },
+  {
+   "id": "instagram:Df5CduOG_AW",
+   "platform": "instagram",
+   "post_id": "Df5CduOG_AW",
+   "post_url": "https://www.instagram.com/p/Df5CduOG_AW/",
+   "posted_at": "2026-11-18T17:26:09+00:00",
+   "club": {
+    "handle": "uottawa_essaeg",
+    "name": {
+     "en": "",
+     "fr": ""
+    },
+    "acronym": {
+     "en": "",
+     "fr": ""
+    },
+    "avatar": null
+   },
+   "category": "academic",
+   "tags": [
+    "academic"
+   ],
+   "title": {
+    "en": "English : don’t forget to come and test the Double Apex Racing Simulator this Friday, the…",
+    "fr": "N’oubliez pas de venir faire essayer le simulateur de course Double Apex, le meilleur…"
+   },
+   "description": {
+    "en": "English : don’t forget to come and test the Double Apex Racing Simulator this Friday, the fastest lap could win cool prizes !",
+    "fr": "N’oubliez pas de venir faire essayer le simulateur de course Double Apex, le meilleur tour remportera des prix !!"
+   },
+   "start": "2026-11-20T00:00:00-05:00",
+   "end": null,
+   "end_date": null,
+   "date_only": true,
+   "duration_min": null,
+   "location": null,
+   "rsvp_required": false,
+   "cost": {
+    "type": "unknown",
+    "amount": null
+   },
+   "languages": [
+    "en",
+    "fr"
+   ],
+   "language_note": null,
+   "translated_from": null,
+   "recurrence": null,
+   "dependency": null,
+   "updates": [],
+   "status": "active",
+   "image": "data/posters/65c768d00018.jpg"
+  },
+  {
+   "id": "instagram:Df-Z-LUlh4z",
+   "platform": "instagram",
+   "post_id": "Df-Z-LUlh4z",
+   "post_url": "https://www.instagram.com/p/Df-Z-LUlh4z/",
+   "posted_at": "2026-11-20T19:27:46+00:00",
+   "club": {
+    "handle": "uottawa_essaeg",
+    "name": {
+     "en": "",
+     "fr": ""
+    },
+    "acronym": {
+     "en": "",
+     "fr": ""
+    },
+    "avatar": null
+   },
+   "category": "academic",
+   "tags": [
+    "academic"
+   ],
+   "title": {
+    "en": "These results are preliminary and are subject to ratification by the ESS Board of…",
+    "fr": "Ces résultats sont préliminaires et sont sujets à la ratification du conseil…"
+   },
+   "description": {
+    "en": "Personne(s) élue(s) à titre préliminaire : Emily Monaghan & Steffen Zylstra\nThese results are preliminary and are subject to ratification by the ESS Board of Directors. In accordance with section 2.3.13.10 of the ESS Policy and Procedure Manual, the Chief Electoral Officer certifies the election results and submits them to the Chair of the Board. The provisional results are then distributed to Members and the Board ratifies the final results.\nPreliminary Winner(s): Emily Monaghan & Steffen Zylstra",
+    "fr": "Ces résultats sont préliminaires et sont sujets à la ratification du conseil d’administration de l’AÉG. Conformément à l’article 2.3.13.10 du Manuel des politiques et procédures de l’AÉG, la Direction générale des élections certifie les résultats de l’élection et les transmet à la présidence du Conseil d’administration. Les résultats provisoires sont ensuite communiqués aux Membres et le Conseil d’administration ratifie les résultats finaux.\nPersonne(s) élue(s) à titre préliminaire : Emily Monaghan & Steffen Zylstra\nPreliminary Winner(s): Emily Monaghan & Steffen Zylstra"
+   },
+   "start": "2026-11-20T00:00:00-05:00",
+   "end": null,
+   "end_date": null,
+   "date_only": true,
+   "duration_min": null,
+   "location": null,
+   "rsvp_required": false,
+   "cost": {
+    "type": "unknown",
+    "amount": null
+   },
+   "languages": [
+    "en",
+    "fr"
+   ],
+   "language_note": null,
+   "translated_from": null,
+   "recurrence": null,
+   "dependency": null,
+   "updates": [],
+   "status": "active",
+   "image": "data/posters/a13d0220f727.jpg"
+  },
+  {
+   "id": "instagram:Df0Wf08Rdtl",
+   "platform": "instagram",
+   "post_id": "Df0Wf08Rdtl",
+   "post_url": "https://www.instagram.com/p/Df0Wf08Rdtl/",
+   "posted_at": "2026-11-16T21:45:06+00:00",
+   "club": {
+    "handle": "genie_engineering_uottawa",
+    "name": {
+     "en": "",
+     "fr": ""
+    },
+    "acronym": {
+     "en": "",
+     "fr": ""
+    },
+    "avatar": null
+   },
+   "category": "academic",
+   "tags": [
+    "academic"
+   ],
+   "title": {
+    "en": "Tu as une idée ou un projet passionnant? C’est le moment de le présenter!",
+    "fr": "Tu as une idée ou un projet passionnant? C’est le moment de le présenter!"
+   },
+   "description": {
+    "en": "Tu as une idée ou un projet passionnant? C’est le moment de le présenter! 💡🎤\n\nParticipe au Concours de pitch entrepreneurial de l’automne 2026 et fais passer ton idée ou ton projet à la prochaine étape. \n\n⏰ Date limite d’inscription : le 20 novembre.\nNe manque pas cette occasion!",
+    "fr": "Tu as une idée ou un projet passionnant? C’est le moment de le présenter! 💡🎤\n\nParticipe au Concours de pitch entrepreneurial de l’automne 2026 et fais passer ton idée ou ton projet à la prochaine étape. \n\n⏰ Date limite d’inscription : le 20 novembre.\nNe manque pas cette occasion!"
+   },
+   "start": "2026-11-20T00:00:00-05:00",
+   "end": null,
+   "end_date": null,
+   "date_only": true,
+   "duration_min": null,
+   "location": null,
+   "rsvp_required": true,
+   "cost": {
+    "type": "unknown",
+    "amount": null
+   },
+   "languages": [
+    "fr"
+   ],
+   "language_note": "maybe_fr",
+   "translated_from": null,
+   "recurrence": null,
+   "dependency": null,
+   "updates": [],
+   "status": "active",
+   "image": "data/posters/7caa48cbcaf1.jpg"
+  },
+  {
+   "id": "instagram:Df8CwmsG8Db",
+   "platform": "instagram",
+   "post_id": "Df8CwmsG8Db",
+   "post_url": "https://www.instagram.com/p/Df8CwmsG8Db/",
+   "posted_at": "2026-11-19T21:26:27+00:00",
+   "club": {
+    "handle": "uomsa.aemuo",
+    "name": {
+     "en": "",
+     "fr": ""
+    },
+    "acronym": {
+     "en": "",
+     "fr": ""
+    },
+    "avatar": null
+   },
+   "category": "religion",
+   "tags": [
+    "religion"
+   ],
+   "title": {
+    "en": "Make your Jummuah a little sweeter!",
+    "fr": "VENTE DE PÂTISSERIES DU JUMMUAH !"
+   },
+   "description": {
+    "en": "As-salamu alaykum!\n🥐 JUMMUAH BAKE SALE! 🤎\nMake your Jummuah a little sweeter! Join us for a delicious selection of freshly baked treats and support our bake sale!\n🤍 In sha Allah, all proceeds will go towards emergency appeals for Palestine and Sudan.\n📅 Date: November 20th\nBring your friends, bring your appetite, and come grab something sweet. We can’t wait to see you there!\nAs-salamu alaykum!\n📅 Date : 20 novembre",
+    "fr": "As-salamu alaykum!\n🥐 JUMMUAH BAKE SALE! 🤎\n📅 Date: November 20th\nAs-salamu alaykum!\n🥐 VENTE DE PÂTISSERIES DU JUMMUAH ! 🤎\nAjoutez une touche de douceur à votre Jummuah ! Venez découvrir une délicieuse sélection de pâtisseries fraîchement préparées et encourager notre vente!\n🤍 In sha Allah, tous les fonds recueillis seront versés aux campagnes d'aide d'urgence pour la Palestine et le Soudan.\n📅 Date : 20 novembre\nInvitez vos amis, apportez votre appétit et passez vous régaler avec nous ! On a hâte de vous y voir !"
+   },
+   "start": "2026-11-20T00:00:00-05:00",
+   "end": null,
+   "end_date": null,
+   "date_only": true,
+   "duration_min": null,
+   "location": {
+    "text": "Location: UCU Terminus",
+    "online": false
+   },
+   "rsvp_required": false,
+   "cost": {
+    "type": "unknown",
+    "amount": null
+   },
+   "languages": [
+    "en",
+    "fr"
+   ],
+   "language_note": null,
+   "translated_from": null,
+   "recurrence": null,
+   "dependency": null,
+   "updates": [],
+   "status": "active",
+   "image": "data/posters/c966c0d08ee7.jpg"
+  },
+  {
+   "id": "instagram:Df-CcrMvFiu",
+   "platform": "instagram",
+   "post_id": "Df-CcrMvFiu",
+   "post_url": "https://www.instagram.com/p/Df-CcrMvFiu/",
+   "posted_at": "2026-11-20T16:03:06+00:00",
+   "club": {
+    "handle": "uo.bsa",
+    "name": {
+     "en": "",
+     "fr": ""
+    },
+    "acronym": {
+     "en": "",
+     "fr": ""
+    },
+    "avatar": null
+   },
+   "category": "culture",
+   "tags": [
+    "culture"
+   ],
+   "title": {
+    "en": "Euro Bar Night is",
+    "fr": "Euro Bar Night is"
+   },
+   "description": {
+    "en": "Euro Bar Night is TODAY! 🗣️ Come show off your cultural dance moves 🕺✨\n\n@uo.bsa @uottawausc @uopolishclub @uo.hungarians @rsa.aer.uottawa @uottawatsa @uohellenic @uottawagermanclub @aef_uottawa @lsa.uottawa",
+    "fr": "Euro Bar Night is TODAY! 🗣️ Come show off your cultural dance moves 🕺✨\n\n@uo.bsa @uottawausc @uopolishclub @uo.hungarians @rsa.aer.uottawa @uottawatsa @uohellenic @uottawagermanclub @aef_uottawa @lsa.uottawa"
+   },
+   "start": "2026-11-20T00:00:00-05:00",
+   "end": null,
+   "end_date": null,
+   "date_only": true,
+   "duration_min": null,
+   "location": null,
+   "rsvp_required": false,
+   "cost": {
+    "type": "unknown",
+    "amount": null
+   },
+   "languages": [
+    "en"
+   ],
+   "language_note": "maybe_en",
+   "translated_from": null,
+   "recurrence": null,
+   "dependency": null,
+   "updates": [],
+   "status": "active",
+   "image": "data/posters/d1ba95b52522.jpg"
+  },
+  {
+   "id": "instagram:Dfxp4eiuRbb",
+   "platform": "instagram",
+   "post_id": "Dfxp4eiuRbb",
+   "post_url": "https://www.instagram.com/p/Dfxp4eiuRbb/",
+   "posted_at": "2026-11-15T20:38:22+00:00",
    "club": {
     "handle": "ieeeuottawa",
-    "name": "",
-    "acronym": "",
+    "name": {
+     "en": "",
+     "fr": ""
+    },
+    "acronym": {
+     "en": "",
+     "fr": ""
+    },
     "avatar": null
    },
    "category": "networking",
@@ -61,12 +498,1174 @@
     "networking"
    ],
    "title": {
-    "en": "WORKSHOP ESPecially Connected!",
-    "fr": "WORKSHOP ESPecially Connected!"
+    "en": "Think you can code a winning poker strategy?",
+    "fr": "Penses-tu pouvoir coder une stratégie de poker gagnante ?"
    },
    "description": {
-    "en": "📡 WORKSHOP: ESPecially Connected! ⚡\n\nJoin us to explore ESP32 microcontrollers, learn how to connect them, and discover their functionality through hands-on experience with embedded electronics!\n\nWhether you’re new to microcontrollers or looking to expand your hardware and electronics skills, this workshop is for you!\n\n📅 Friday, November 27\n⏰ 6 to 8 PM\n📍 STM 364\n\n🔗 Sign up through the link in our bio!\n\nSee you there! 💙\n\n📡 ATELIER : ESPecially Connected! ⚡\n\nJoignez-vous à nous pour découvrir les microcontrôleurs ESP32, apprendre à les connecter et explorer leurs fonctionnalités grâce à des acti…",
-    "fr": "📡 WORKSHOP: ESPecially Connected! ⚡\n\nJoin us to explore ESP32 microcontrollers, learn how to connect them, and discover their functionality through hands-on experience with embedded electronics!\n\nWhether you’re new to microcontrollers or looking to expand your hardware and electronics skills, this workshop is for you!\n\n📅 Friday, November 27\n⏰ 6 to 8 PM\n📍 STM 364\n\n🔗 Sign up through the link in our bio!\n\nSee you there! 💙\n\n📡 ATELIER : ESPecially Connected! ⚡\n\nJoignez-vous à nous pour découvrir les microcontrôleurs ESP32, apprendre à les connecter et explorer leurs fonctionnalités grâce à des acti…"
+    "en": "♠️ LARUS POKER BOT HACKATHON! ♥️\nThink you can code a winning poker strategy? 🃏 Join IEEE uOttawa x LARUS Technologies for a full day of coding, strategy, and competition!\nBuild your own poker bot, develop a `decide()` function, and put your creation to the test in a live tournament!\n🏆 $750 IN PRIZES! Plus, special prizes for the most creative strategies!\n👥 Teams of 1–2 people\n🔗 Link in bio to register and secure your spot!\nCome solo or bring a partner. No poker experience needed, just your coding skills!\nSee you there! 💙",
+    "fr": "♠️ LARUS POKER BOT HACKATHON! ♥️\nPenses-tu pouvoir coder une stratégie de poker gagnante ? 🃏 Rejoins IEEE uOttawa x LARUS Technologies pour une journée complète de programmation, de stratégie et de compétition!\nCrée ton propre bot de poker, développe une fonction `decide()` et mets ta création à l’épreuve lors d’un tournoi en direct!\n🏆 750 $ EN PRIX! Avec des prix supplémentaires pour les stratégies les plus créatives!\n👥 Équipes de 1 à 2 personnes\n🔗 Inscris-toi via le lien dans notre bio pour réserver ta place!\nTu peux venir seul(e) ou avec un(e) partenaire. Aucune expérience en poker n’est né…"
+   },
+   "start": "2026-11-21T09:00:00-05:00",
+   "end": "2026-11-21T22:00:00-05:00",
+   "end_date": null,
+   "date_only": false,
+   "duration_min": 780,
+   "location": {
+    "text": "STM 117",
+    "online": false
+   },
+   "rsvp_required": true,
+   "cost": {
+    "type": "paid",
+    "amount": "$750"
+   },
+   "languages": [
+    "en",
+    "fr"
+   ],
+   "language_note": null,
+   "translated_from": null,
+   "recurrence": null,
+   "dependency": null,
+   "updates": [],
+   "status": "active",
+   "image": "data/posters/e3a5d7d58590.jpg"
+  },
+  {
+   "id": "instagram:DflNYH3IAeZ",
+   "platform": "instagram",
+   "post_id": "DflNYH3IAeZ",
+   "post_url": "https://www.instagram.com/p/DflNYH3IAeZ/",
+   "posted_at": "2026-11-11T00:36:42+00:00",
+   "club": {
+    "handle": "nsbeuottawa",
+    "name": {
+     "en": "",
+     "fr": ""
+    },
+    "acronym": {
+     "en": "",
+     "fr": ""
+    },
+    "avatar": null
+   },
+   "category": "networking",
+   "tags": [
+    "networking"
+   ],
+   "title": {
+    "en": "Ready to take your professional presence to the next level?",
+    "fr": "PORTRAITS ET RÉSEAUTAGE"
+   },
+   "description": {
+    "en": "📸🤝🏾 HEADSHOTS & HANDSHAKES\nReady to take your professional presence to the next level? Join NSBE uOttawa for an evening of networking, career development, and new connections!\n✨ Resume reviews with professionals\n📸 Professional LinkedIn headshots\n🤝🏾 Networking with fellow students and professionals\nCome prepared to connect, learn, and invest in your future. Don’t miss out!\nRegister now!",
+    "fr": "📸🤝🏾 HEADSHOTS & HANDSHAKES\n📸 Professional LinkedIn headshots\nRegister now!\n📸🤝🏾 PORTRAITS ET RÉSEAUTAGE\nPrêt(e) à faire passer ta présence professionnelle au niveau supérieur? Rejoins NSBE uOttawa pour une soirée dédiée au réseautage, au développement professionnel et aux nouvelles connexions!\n✨ Révision de CV avec des professionnels\n📸 Photos professionnelles pour LinkedIn\n🤝🏾Réseautage avec d’autres étudiants et professionnels\nUne belle occasion de développer ton réseau, de mettre ton profil en valeur et d’investir dans ton avenir professionnel!\nInscris-toi dès maintenant!"
+   },
+   "start": "2026-11-23T17:00:00-05:00",
+   "end": "2026-11-23T22:00:00-05:00",
+   "end_date": null,
+   "date_only": false,
+   "duration_min": 300,
+   "location": {
+    "text": "STM 117",
+    "online": false
+   },
+   "rsvp_required": true,
+   "cost": {
+    "type": "unknown",
+    "amount": null
+   },
+   "languages": [
+    "en",
+    "fr"
+   ],
+   "language_note": null,
+   "translated_from": null,
+   "recurrence": null,
+   "dependency": null,
+   "updates": [],
+   "status": "active",
+   "image": "data/posters/79d3e2ead0cc.jpg"
+  },
+  {
+   "id": "instagram:DfpsvA7Ae45",
+   "platform": "instagram",
+   "post_id": "DfpsvA7Ae45",
+   "post_url": "https://www.instagram.com/p/DfpsvA7Ae45/",
+   "posted_at": "2026-11-12T18:31:03+00:00",
+   "club": {
+    "handle": "nsbeuottawa",
+    "name": {
+     "en": "",
+     "fr": ""
+    },
+    "acronym": {
+     "en": "",
+     "fr": ""
+    },
+    "avatar": null
+   },
+   "category": "networking",
+   "tags": [
+    "networking"
+   ],
+   "title": {
+    "en": "Ready to elevate your professional profile?",
+    "fr": "Portraits et réseautage"
+   },
+   "description": {
+    "en": "📸 HEADSHOTS & HANDSHAKES \nReady to elevate your professional profile? Join us for resume reviews, professional LinkedIn headshots, and networking with peers!\n🔗 Register now using the link in our Linktree!",
+    "fr": "📸 HEADSHOTS & HANDSHAKES \n📸Portraits et réseautage\nPrêt(e) à faire passer ton profil professionnel au niveau supérieur ? Rejoins-nous pour une révision de CV, des photos professionnelles pour LinkedIn et du réseautage avec tes pairs !\n🔗 Inscris-toi dès maintenant via le lien dans notre Linktree !#nsbe"
+   },
+   "start": "2026-11-23T17:00:00-05:00",
+   "end": "2026-11-23T22:00:00-05:00",
+   "end_date": null,
+   "date_only": false,
+   "duration_min": 300,
+   "location": {
+    "text": "STM 117",
+    "online": false
+   },
+   "rsvp_required": true,
+   "cost": {
+    "type": "unknown",
+    "amount": null
+   },
+   "languages": [
+    "en",
+    "fr"
+   ],
+   "language_note": null,
+   "translated_from": null,
+   "recurrence": null,
+   "dependency": null,
+   "updates": [],
+   "status": "active",
+   "image": "data/posters/6256a5479121.jpg"
+  },
+  {
+   "id": "instagram:Df95L2zmzGG",
+   "platform": "instagram",
+   "post_id": "Df95L2zmzGG",
+   "post_url": "https://www.instagram.com/p/Df95L2zmzGG/",
+   "posted_at": "2026-11-20T14:41:17+00:00",
+   "club": {
+    "handle": "nsbeuottawa",
+    "name": {
+     "en": "",
+     "fr": ""
+    },
+    "acronym": {
+     "en": "",
+     "fr": ""
+    },
+    "avatar": null
+   },
+   "category": "networking",
+   "tags": [
+    "networking"
+   ],
+   "title": {
+    "en": "At Headshots & Handshakes, you’ll get to connect with professionals who’ve been where you…",
+    "fr": "At Headshots & Handshakes, you’ll get to connect with professionals who’ve been where you…"
+   },
+   "description": {
+    "en": "At Headshots & Handshakes, you’ll get to connect with professionals who’ve been where you are and are ready to share what they’ve learned. Here are two of them 👇🏿\n\n💻 Lemuel Ambie Barango, Senior Software Engineer at Wealthsimple\nInterested in software, fintech, or what it takes to grow into a senior engineering role? Come ask him your questions.\n\n💼 Ominini Ambie Barango, Account Executive at TEKsystems\nCurious about the business side of tech, or what companies really look for in candidates? He’s the one to talk to.\n\nBring your resume, your questions, and your best smile, and dress to impress 👔…",
+    "fr": "At Headshots & Handshakes, you’ll get to connect with professionals who’ve been where you are and are ready to share what they’ve learned. Here are two of them 👇🏿\n\n💻 Lemuel Ambie Barango, Senior Software Engineer at Wealthsimple\nInterested in software, fintech, or what it takes to grow into a senior engineering role? Come ask him your questions.\n\n💼 Ominini Ambie Barango, Account Executive at TEKsystems\nCurious about the business side of tech, or what companies really look for in candidates? He’s the one to talk to.\n\nBring your resume, your questions, and your best smile, and dress to impress 👔…"
+   },
+   "start": "2026-11-23T17:00:00-05:00",
+   "end": "2026-11-23T22:00:00-05:00",
+   "end_date": null,
+   "date_only": false,
+   "duration_min": 300,
+   "location": {
+    "text": "STM 117",
+    "online": false
+   },
+   "rsvp_required": true,
+   "cost": {
+    "type": "unknown",
+    "amount": null
+   },
+   "languages": [
+    "en"
+   ],
+   "language_note": "maybe_en",
+   "translated_from": null,
+   "recurrence": null,
+   "dependency": null,
+   "updates": [],
+   "status": "active",
+   "image": "data/posters/3476e6ecd0ec.jpg"
+  },
+  {
+   "id": "instagram:Df-8CyugOAt",
+   "platform": "instagram",
+   "post_id": "Df-8CyugOAt",
+   "post_url": "https://www.instagram.com/p/Df-8CyugOAt/",
+   "posted_at": "2026-11-21T00:36:48+00:00",
+   "club": {
+    "handle": "uo.ebc",
+    "name": {
+     "en": "",
+     "fr": ""
+    },
+    "acronym": {
+     "en": "",
+     "fr": ""
+    },
+    "avatar": null
+   },
+   "category": "networking",
+   "tags": [
+    "networking"
+   ],
+   "title": {
+    "en": "ONE LAST GAME NIGHT BEFORE EXAM SEASON!",
+    "fr": "ONE LAST GAME NIGHT BEFORE EXAM SEASON!"
+   },
+   "description": {
+    "en": "ONE LAST GAME NIGHT BEFORE EXAM SEASON!🎲🃏\n\nBefore finals take over, come take a break, meet new people, and enjoy a fun evening with the Engineering Business Club (EBC)!\n\nWhether you’re coming with friends or showing up solo, everyone’s welcome!\n\nWhat’s waiting for you?\n🎮 Board games, UNO & friendly competitions\n🍪 Snacks & refreshments\n🎁 Self-care giveaways & exciting prizes\n🤝 New friends and connections!\n\n💆‍♀️ ♟️SPECIAL THANK YOU TO OUR SPONSORS!\n\nA huge thank you to @exhalospa and @studio.staja for generously supporting our event and helping us bring some extra self-care and some fun to stud…",
+    "fr": "ONE LAST GAME NIGHT BEFORE EXAM SEASON!🎲🃏\n\nBefore finals take over, come take a break, meet new people, and enjoy a fun evening with the Engineering Business Club (EBC)!\n\nWhether you’re coming with friends or showing up solo, everyone’s welcome!\n\nWhat’s waiting for you?\n🎮 Board games, UNO & friendly competitions\n🍪 Snacks & refreshments\n🎁 Self-care giveaways & exciting prizes\n🤝 New friends and connections!\n\n💆‍♀️ ♟️SPECIAL THANK YOU TO OUR SPONSORS!\n\nA huge thank you to @exhalospa and @studio.staja for generously supporting our event and helping us bring some extra self-care and some fun to stud…"
+   },
+   "start": "2026-11-23T17:30:00-05:00",
+   "end": "2026-11-23T19:30:00-05:00",
+   "end_date": null,
+   "date_only": false,
+   "duration_min": 120,
+   "location": {
+    "text": "CBY A04",
+    "online": false
+   },
+   "rsvp_required": false,
+   "cost": {
+    "type": "free",
+    "amount": null
+   },
+   "languages": [
+    "en"
+   ],
+   "language_note": "maybe_en",
+   "translated_from": null,
+   "recurrence": null,
+   "dependency": null,
+   "updates": [],
+   "status": "active",
+   "image": "data/posters/b6faa10aef70.jpg"
+  },
+  {
+   "id": "instagram:DgFqRabFbS0",
+   "platform": "instagram",
+   "post_id": "DgFqRabFbS0",
+   "post_url": "https://www.instagram.com/p/DgFqRabFbS0/",
+   "posted_at": "2026-11-23T15:04:53+00:00",
+   "club": {
+    "handle": "ieeeuottawa",
+    "name": {
+     "en": "",
+     "fr": ""
+    },
+    "acronym": {
+     "en": "",
+     "fr": ""
+    },
+    "avatar": null
+   },
+   "category": "networking",
+   "tags": [
+    "networking"
+   ],
+   "title": {
+    "en": "WORKSHOP BEYOND THE BREADBOARD",
+    "fr": "Joignez-vous à nous pour apprendre les bases de la conception de circuits et du…"
+   },
+   "description": {
+    "en": "🔌 WORKSHOP: BEYOND THE BREADBOARD⚡\nJoin us to learn the fundamentals of circuit design and PCB development! Explore electronic components, build circuits, and discover how to design your very own circuit board.\nWhether you’re new to electronics or looking to expand your hardware skills, this workshop is for you!\n🔗 Sign up through the link in our bio!\nSee you there! 💙\n🔌 ATELIER : BEYOND THE BREADBOARD ⚡",
+    "fr": "Joignez-vous à nous pour apprendre les bases de la conception de circuits et du développement de PCB! Découvrez les composants électroniques, construisez des circuits et apprenez à concevoir votre propre carte électronique.\nQue vous soyez novice en électronique ou que vous souhaitiez approfondir vos compétences en matériel électronique, cet atelier est fait pour vous!\n🔗 Inscrivez-vous via le lien dans notre bio!\nOn vous attend! 💙"
+   },
+   "start": "2026-11-23T18:00:00-05:00",
+   "end": "2026-11-23T20:00:00-05:00",
+   "end_date": null,
+   "date_only": false,
+   "duration_min": 120,
+   "location": {
+    "text": "STM 364",
+    "online": false
+   },
+   "rsvp_required": true,
+   "cost": {
+    "type": "unknown",
+    "amount": null
+   },
+   "languages": [
+    "en",
+    "fr"
+   ],
+   "language_note": null,
+   "translated_from": null,
+   "recurrence": null,
+   "dependency": null,
+   "updates": [],
+   "status": "active",
+   "image": "data/posters/91da26def37a.jpg"
+  },
+  {
+   "id": "instagram:Df-fdFXlDaj",
+   "platform": "instagram",
+   "post_id": "Df-fdFXlDaj",
+   "post_url": "https://www.instagram.com/p/Df-fdFXlDaj/",
+   "posted_at": "2026-11-20T20:15:41+00:00",
+   "club": {
+    "handle": "uottawa.susa",
+    "name": {
+     "en": "Sudanese Students Association",
+     "fr": "Association des étudiants soudanais"
+    },
+    "acronym": {
+     "en": "SUSA",
+     "fr": "AÉS"
+    },
+    "avatar": null
+   },
+   "category": "culture",
+   "tags": [
+    "culture"
+   ],
+   "title": {
+    "en": "Join us for our Bake Sale!",
+    "fr": "Rejoignez-nous pour notre vente de pâtisseries !"
+   },
+   "description": {
+    "en": "Join us for our Bake Sale! 🤎\nCome satisfy your sweet tooth! 🫶🏽",
+    "fr": "Rejoignez-nous pour notre vente de pâtisseries ! 🤎\nVenez vous régaler ! 🫶🏽"
+   },
+   "start": "2026-11-24T13:00:00-05:00",
+   "end": "2026-11-24T16:00:00-05:00",
+   "end_date": null,
+   "date_only": false,
+   "duration_min": 180,
+   "location": {
+    "text": "CRX 524",
+    "online": false
+   },
+   "rsvp_required": false,
+   "cost": {
+    "type": "unknown",
+    "amount": null
+   },
+   "languages": [
+    "en",
+    "fr"
+   ],
+   "language_note": null,
+   "translated_from": null,
+   "recurrence": null,
+   "dependency": null,
+   "updates": [],
+   "status": "active",
+   "image": "data/posters/f051b9fdcec5.jpg"
+  },
+  {
+   "id": "instagram:Df-f6i4SfXY",
+   "platform": "instagram",
+   "post_id": "Df-f6i4SfXY",
+   "post_url": "https://www.instagram.com/p/Df-f6i4SfXY/",
+   "posted_at": "2026-11-20T20:21:18+00:00",
+   "club": {
+    "handle": "uottawa.susa",
+    "name": {
+     "en": "Sudanese Students Association",
+     "fr": "Association des étudiants soudanais"
+    },
+    "acronym": {
+     "en": "SUSA",
+     "fr": "AÉS"
+    },
+    "avatar": null
+   },
+   "category": "culture",
+   "tags": [
+    "culture"
+   ],
+   "title": {
+    "en": "Come grab some sweet treats and support us!!",
+    "fr": "Come grab some sweet treats and support us!!"
+   },
+   "description": {
+    "en": "Come grab some sweet treats and support us!!",
+    "fr": "Come grab some sweet treats and support us!!"
+   },
+   "start": "2026-11-24T13:00:00-05:00",
+   "end": "2026-11-24T16:00:00-05:00",
+   "end_date": null,
+   "date_only": false,
+   "duration_min": 180,
+   "location": {
+    "text": "CRX C524",
+    "online": false
+   },
+   "rsvp_required": false,
+   "cost": {
+    "type": "unknown",
+    "amount": null
+   },
+   "languages": [
+    "en"
+   ],
+   "language_note": "maybe_en",
+   "translated_from": null,
+   "recurrence": null,
+   "dependency": null,
+   "updates": [],
+   "status": "active",
+   "image": "data/posters/78b9bcc15ded.jpg"
+  },
+  {
+   "id": "instagram:Df5zQpSGMQk",
+   "platform": "instagram",
+   "post_id": "Df5zQpSGMQk",
+   "post_url": "https://www.instagram.com/p/Df5zQpSGMQk/",
+   "posted_at": "2026-11-19T00:32:32+00:00",
+   "club": {
+    "handle": "uomsa.aemuo",
+    "name": {
+     "en": "",
+     "fr": ""
+    },
+    "acronym": {
+     "en": "",
+     "fr": ""
+    },
+    "avatar": null
+   },
+   "category": "religion",
+   "tags": [
+    "religion"
+   ],
+   "title": {
+    "en": "Join us for an interactive workshop featuring activities, practical resources, and…",
+    "fr": "De petits pas, des habitudes intentionnelles, une croissance significative"
+   },
+   "description": {
+    "en": "As-salamu alaykum, \n🌷 BUILDING SELF-DISCIPLINE\nSmall steps, intentional habits, meaningful growth. 🤍\nJoin us for an interactive workshop featuring activities, practical resources, and personal reflection as we explore how to build habits that align with the person we aspire to become — in our deen, studies, personal lives, and beyond.\nSee you there, InshaAllah!\nAs-Salamu alaykum,\n🌷 DÉVELOPPER L’AUTODISCIPLINE",
+    "fr": "As-salamu alaykum, \n🌷 BUILDING SELF-DISCIPLINE\nSmall steps, intentional habits, meaningful growth. 🤍\nAs-Salamu alaykum,\n🌷 DÉVELOPPER L’AUTODISCIPLINE\nDe petits pas, des habitudes intentionnelles, une croissance significative. 🤍\nJoignez-vous à nous pour un atelier interactif comprenant des activités, des ressources pratiques et des moments de réflexion afin d’explorer comment développer des habitudes qui nous rapprochent de la personne que nous aspirons à devenir — dans notre deen, nos études, notre vie personnelle et bien plus encore.\nAu plaisir de vous y voir, InshaAllah !"
+   },
+   "start": "2026-11-24T18:00:00-05:00",
+   "end": "2026-11-24T20:00:00-05:00",
+   "end_date": null,
+   "date_only": false,
+   "duration_min": 120,
+   "location": {
+    "text": "SMD 428",
+    "online": false
+   },
+   "rsvp_required": false,
+   "cost": {
+    "type": "unknown",
+    "amount": null
+   },
+   "languages": [
+    "en",
+    "fr"
+   ],
+   "language_note": null,
+   "translated_from": null,
+   "recurrence": null,
+   "dependency": null,
+   "updates": [],
+   "status": "active",
+   "image": "data/posters/7762ef6f07c2.jpg"
+  },
+  {
+   "id": "instagram:DgDP8zcSQci",
+   "platform": "instagram",
+   "post_id": "DgDP8zcSQci",
+   "post_url": "https://www.instagram.com/p/DgDP8zcSQci/",
+   "posted_at": "2026-11-22T16:37:22+00:00",
+   "club": {
+    "handle": "uomsa.aemuo",
+    "name": {
+     "en": "",
+     "fr": ""
+    },
+    "acronym": {
+     "en": "",
+     "fr": ""
+    },
+    "avatar": null
+   },
+   "category": "religion",
+   "tags": [
+    "religion"
+   ],
+   "title": {
+    "en": "A friendly reminder about our BUILDING SELF-DISCIPLINE workshop!",
+    "fr": "Petit rappel pour notre atelier DÉVELOPPER L’AUTODISCIPLINE!"
+   },
+   "description": {
+    "en": "As-salamu alaykum! 🌷\n📣 A friendly reminder about our BUILDING SELF-DISCIPLINE workshop!\nJoin us for an interactive session with activities, practical resources, and reflection on building intentional habits for growth in our deen, studies, and personal lives. 🤍\nSee you there, InshaAllah!\nAs-salamu alaykum! 🌷",
+    "fr": "As-salamu alaykum! 🌷\nAs-salamu alaykum! 🌷\n📣 Petit rappel pour notre atelier DÉVELOPPER L’AUTODISCIPLINE!\nJoignez-vous à nous pour des activités interactives, des ressources pratiques et un moment de réflexion afin de développer de bonnes habitudes dans notre deen, nos études et notre vie personnelle. 🤍\nAu plaisir de vous y voir, inshaAllah!"
+   },
+   "start": "2026-11-24T18:00:00-05:00",
+   "end": "2026-11-24T20:00:00-05:00",
+   "end_date": null,
+   "date_only": false,
+   "duration_min": 120,
+   "location": {
+    "text": "SMD 428",
+    "online": false
+   },
+   "rsvp_required": false,
+   "cost": {
+    "type": "unknown",
+    "amount": null
+   },
+   "languages": [
+    "en",
+    "fr"
+   ],
+   "language_note": null,
+   "translated_from": null,
+   "recurrence": null,
+   "dependency": null,
+   "updates": [],
+   "status": "active",
+   "image": "data/posters/ffa69f478e01.jpg"
+  },
+  {
+   "id": "instagram:DgF0pkyOjg7",
+   "platform": "instagram",
+   "post_id": "DgF0pkyOjg7",
+   "post_url": "https://www.instagram.com/p/DgF0pkyOjg7/",
+   "posted_at": "2026-11-23T16:41:57+00:00",
+   "club": {
+    "handle": "uomsa.aemuo",
+    "name": {
+     "en": "",
+     "fr": ""
+    },
+    "acronym": {
+     "en": "",
+     "fr": ""
+    },
+    "avatar": null
+   },
+   "category": "religion",
+   "tags": [
+    "religion"
+   ],
+   "title": {
+    "en": "Our BUILDING SELF-DISCIPLINE workshop is",
+    "fr": "Notre atelier DÉVELOPPER L’AUTODISCIPLINE est"
+   },
+   "description": {
+    "en": "As-salamu alaykum,\n🚨REMINDER:\nOur BUILDING SELF-DISCIPLINE workshop is TOMORROW!\nSee you there, InshaAllah!\nAs-salamu alaykum, \n🚨 REMINDER:",
+    "fr": "As-salamu alaykum,\n🚨REMINDER:\nAs-salamu alaykum, \n🚨 REMINDER:\nNotre atelier DÉVELOPPER L’AUTODISCIPLINE est DEMAIN\nAu plaisir de vous y voir, inshaAllah!"
+   },
+   "start": "2026-11-24T18:00:00-05:00",
+   "end": "2026-11-24T20:00:00-05:00",
+   "end_date": null,
+   "date_only": false,
+   "duration_min": 120,
+   "location": {
+    "text": "SMD 428",
+    "online": false
+   },
+   "rsvp_required": false,
+   "cost": {
+    "type": "unknown",
+    "amount": null
+   },
+   "languages": [
+    "en",
+    "fr"
+   ],
+   "language_note": null,
+   "translated_from": null,
+   "recurrence": null,
+   "dependency": null,
+   "updates": [],
+   "status": "active",
+   "image": "data/posters/94ef1008262e.jpg"
+  },
+  {
+   "id": "instagram:Df-fOLMmMEn",
+   "platform": "instagram",
+   "post_id": "Df-fOLMmMEn",
+   "post_url": "https://www.instagram.com/p/Df-fOLMmMEn/",
+   "posted_at": "2026-11-20T20:13:39+00:00",
+   "club": {
+    "handle": "uomsa.aemuo",
+    "name": {
+     "en": "",
+     "fr": ""
+    },
+    "acronym": {
+     "en": "",
+     "fr": ""
+    },
+    "avatar": null
+   },
+   "category": "religion",
+   "tags": [
+    "religion"
+   ],
+   "title": {
+    "en": "Bring your team or sign up solo and join us for an afternoon of soccer, brotherhood &…",
+    "fr": "TOURNOI DE MINI-SOCCER FRÈRES DE L’UOMSA"
+   },
+   "description": {
+    "en": "As-salamu alaykum,\n⚽️🏆 UOMSA BROTHERS MINI SOCCER TOURNAMENT 🏆⚽️\nBring your team or sign up solo and join us for an afternoon of soccer, brotherhood & good vibes!\n💰 $70/team or $10/solo\n🏆 Medals, prizes & snacks included!\n📝 Registration required — link in bio. Spots are limited! ⬇️\nAs-salamu alaykum,",
+    "fr": "As-salamu alaykum,\n⚽️🏆 UOMSA BROTHERS MINI SOCCER TOURNAMENT 🏆⚽️\n💰 $70/team or $10/solo\n🏆 Medals, prizes & snacks included!\nAs-salamu alaykum,\n⚽️🏆 TOURNOI DE MINI-SOCCER FRÈRES DE L’UOMSA 🏆⚽️\nInscris ton équipe ou joins-toi en solo pour un après-midi de soccer, de fraternité et de plaisir!\n💰 70 $/équipe ou 10 $/joueur solo\n🏆 Médailles, prix et collations inclus!\n📝 Inscription obligatoire — lien dans la bio. Places limitées!⬇️"
+   },
+   "start": "2026-11-25T15:00:00-05:00",
+   "end": null,
+   "end_date": null,
+   "date_only": false,
+   "duration_min": null,
+   "location": {
+    "text": "La Fonderie Hall, Gatineau",
+    "online": false
+   },
+   "rsvp_required": true,
+   "cost": {
+    "type": "paid",
+    "amount": "$70"
+   },
+   "languages": [
+    "en",
+    "fr"
+   ],
+   "language_note": null,
+   "translated_from": null,
+   "recurrence": null,
+   "dependency": null,
+   "updates": [],
+   "status": "active",
+   "image": "data/posters/e7c67a62a86c.jpg"
+  },
+  {
+   "id": "instagram:DgDtTjpuKgE",
+   "platform": "instagram",
+   "post_id": "DgDtTjpuKgE",
+   "post_url": "https://www.instagram.com/p/DgDtTjpuKgE/",
+   "posted_at": "2026-11-22T20:57:09+00:00",
+   "club": {
+    "handle": "uomsa.aemuo",
+    "name": {
+     "en": "",
+     "fr": ""
+    },
+    "acronym": {
+     "en": "",
+     "fr": ""
+    },
+    "avatar": null
+   },
+   "category": "religion",
+   "tags": [
+    "religion"
+   ],
+   "title": {
+    "en": "As-salamu alaykum,",
+    "fr": "As-salamu alaykum,"
+   },
+   "description": {
+    "en": "As-salamu alaykum,\n\n🚨REMINDER:\n⚽️🏆 UOMSA BROTHERS MINI SOCCER TOURNAMENT 🏆⚽️\n\n💰 $70/team or $10/solo\n🏆 Medals, prizes & snacks included!\n\n📝 Registration required (link in bio)— Spots are limited! ⬇️\nhttps://forms.gle/P939hJqz629JATTe8\n——\n\nAs-salamu alaykum,\n\n🚨 RAPPEL:\n\n⚽️🏆 TOURNOI DE MINI-SOCCER FRÈRES DE L’UOMSA 🏆⚽️\n\n💰 70 $/équipe ou 10 $/joueur solo\n🏆 Médailles, prix et collations inclus!\n\n📝 Inscription obligatoire (lien dans bio) — places limitées!⬇️\nhttps://forms.gle/P939hJqz629JATTe8",
+    "fr": "As-salamu alaykum,\n\n🚨REMINDER:\n⚽️🏆 UOMSA BROTHERS MINI SOCCER TOURNAMENT 🏆⚽️\n\n💰 $70/team or $10/solo\n🏆 Medals, prizes & snacks included!\n\n📝 Registration required (link in bio)— Spots are limited! ⬇️\nhttps://forms.gle/P939hJqz629JATTe8\n——\n\nAs-salamu alaykum,\n\n🚨 RAPPEL:\n\n⚽️🏆 TOURNOI DE MINI-SOCCER FRÈRES DE L’UOMSA 🏆⚽️\n\n💰 70 $/équipe ou 10 $/joueur solo\n🏆 Médailles, prix et collations inclus!\n\n📝 Inscription obligatoire (lien dans bio) — places limitées!⬇️\nhttps://forms.gle/P939hJqz629JATTe8"
+   },
+   "start": "2026-11-25T15:00:00-05:00",
+   "end": null,
+   "end_date": null,
+   "date_only": false,
+   "duration_min": null,
+   "location": {
+    "text": "La Fonderie Hall, Gatineau",
+    "online": false
+   },
+   "rsvp_required": true,
+   "cost": {
+    "type": "paid",
+    "amount": "$70"
+   },
+   "languages": [
+    "fr"
+   ],
+   "language_note": "maybe_fr",
+   "translated_from": null,
+   "recurrence": null,
+   "dependency": null,
+   "updates": [],
+   "status": "active",
+   "image": "data/posters/25273907790f.jpg"
+  },
+  {
+   "id": "instagram:DgIyyl7SHat",
+   "platform": "instagram",
+   "post_id": "DgIyyl7SHat",
+   "post_url": "https://www.instagram.com/p/DgIyyl7SHat/",
+   "posted_at": "2026-11-24T20:17:51+00:00",
+   "club": {
+    "handle": "aeeippssa.uo",
+    "name": {
+     "en": "",
+     "fr": ""
+    },
+    "acronym": {
+     "en": "",
+     "fr": ""
+    },
+    "avatar": null
+   },
+   "category": "academic",
+   "tags": [
+    "academic"
+   ],
+   "title": {
+    "en": "Take a pause from the busy season and join us for a cozy evening of tea, reflection, and…",
+    "fr": "Offrez-vous un moment de calme et de réflexion autour d’une tasse de thé."
+   },
+   "description": {
+    "en": "🫖 Take a pause from the busy season and join us for a cozy evening of tea, reflection, and connection. Write a letter to your future self, share in meaningful conversation, and seal your message in our community time capsule.",
+    "fr": "🫖 Offrez-vous un moment de calme et de réflexion autour d’une tasse de thé. Écrivez une lettre à votre futur moi, partagez un moment de connexion avec la communauté et scellez votre message dans notre capsule temporelle."
+   },
+   "start": "2026-11-25T17:00:00-05:00",
+   "end": null,
+   "end_date": null,
+   "date_only": false,
+   "duration_min": null,
+   "location": null,
+   "rsvp_required": false,
+   "cost": {
+    "type": "unknown",
+    "amount": null
+   },
+   "languages": [
+    "en",
+    "fr"
+   ],
+   "language_note": null,
+   "translated_from": null,
+   "recurrence": null,
+   "dependency": null,
+   "updates": [],
+   "status": "active",
+   "image": "data/posters/dcbefead77b4.jpg"
+  },
+  {
+   "id": "instagram:DgKxOpCFQEb",
+   "platform": "instagram",
+   "post_id": "DgKxOpCFQEb",
+   "post_url": "https://www.instagram.com/p/DgKxOpCFQEb/",
+   "posted_at": "2026-11-25T14:41:53+00:00",
+   "club": {
+    "handle": "ieeeuottawa",
+    "name": {
+     "en": "",
+     "fr": ""
+    },
+    "acronym": {
+     "en": "",
+     "fr": ""
+    },
+    "avatar": null
+   },
+   "category": "networking",
+   "tags": [
+    "networking"
+   ],
+   "title": {
+    "en": "Join us for a hands-on introduction to open source!",
+    "fr": "Joignez-vous à nous pour une introduction pratique à l’open source!"
+   },
+   "description": {
+    "en": "💻 WORKSHOP # 5: OPEN SOURCE!🚀\nJoin us for a hands-on introduction to open source! Learn how to find projects that match your interests, contribute to real-world software, and build your skills alongside other developers.\nWhether you’re new to open source or looking to get more involved, this workshop is the perfect place to start!\n🤝 In collaboration with FOSS Club\n💻 Bring your laptop, curiosity, and ideas. Let’s build something together!\n🔗 Sign up through the link in our bio!\nSee you there! 💙\n💻 ATELIER # 5: OPEN SOURCE!🚀",
+    "fr": "💻 WORKSHOP # 5: OPEN SOURCE!🚀\n💻 ATELIER # 5: OPEN SOURCE!🚀\nJoignez-vous à nous pour une introduction pratique à l’open source! Apprenez à trouver des projets qui correspondent à vos intérêts, à contribuer à de vrais projets logiciels et à développer vos compétences aux côtés d’autres développeurs.\nQue vous découvriez l’open source ou que vous souhaitiez vous impliquer davantage, cet atelier est le point de départ idéal!\n🤝 En collaboration avec le FOSS Club\n💻 Apportez votre ordinateur portable, votre curiosité et vos idées. Construisons quelque chose ensemble! \n🔗 Inscrivez-vous via le lien dans…"
+   },
+   "start": "2026-11-25T19:00:00-05:00",
+   "end": "2026-11-25T21:00:00-05:00",
+   "end_date": null,
+   "date_only": false,
+   "duration_min": 120,
+   "location": {
+    "text": "STEM 664",
+    "online": false
+   },
+   "rsvp_required": true,
+   "cost": {
+    "type": "unknown",
+    "amount": null
+   },
+   "languages": [
+    "en",
+    "fr"
+   ],
+   "language_note": null,
+   "translated_from": null,
+   "recurrence": null,
+   "dependency": null,
+   "updates": [],
+   "status": "active",
+   "image": "data/posters/07a57cecbc7e.jpg"
+  },
+  {
+   "id": "instagram:DgJCzK3O4TJ",
+   "platform": "instagram",
+   "post_id": "DgJCzK3O4TJ",
+   "post_url": "https://www.instagram.com/p/DgJCzK3O4TJ/",
+   "posted_at": "2026-11-24T22:38:28+00:00",
+   "club": {
+    "handle": "uottawa_essaeg",
+    "name": {
+     "en": "",
+     "fr": ""
+    },
+    "acronym": {
+     "en": "",
+     "fr": ""
+    },
+    "avatar": null
+   },
+   "category": "academic",
+   "tags": [
+    "academic"
+   ],
+   "title": {
+    "en": "This Thursday night! Come perform or watch and support the Ottawa Food Bank!",
+    "fr": "Ce jeudi soir ! Venez vous produire sur scène ou venez assister au spectacle et soutenir…"
+   },
+   "description": {
+    "en": "This Thursday night! Come perform or watch and support the Ottawa Food Bank!",
+    "fr": "Ce jeudi soir ! Venez vous produire sur scène ou venez assister au spectacle et soutenir la Banque alimentaire d’Ottawa !"
+   },
+   "start": "2026-11-26T00:00:00-05:00",
+   "end": null,
+   "end_date": null,
+   "date_only": true,
+   "duration_min": null,
+   "location": null,
+   "rsvp_required": false,
+   "cost": {
+    "type": "unknown",
+    "amount": null
+   },
+   "languages": [
+    "en",
+    "fr"
+   ],
+   "language_note": null,
+   "translated_from": null,
+   "recurrence": null,
+   "dependency": null,
+   "updates": [],
+   "status": "active",
+   "image": "data/posters/980e637e4175.jpg"
+  },
+  {
+   "id": "instagram:Dfvc0d6OOug",
+   "platform": "instagram",
+   "post_id": "Dfvc0d6OOug",
+   "post_url": "https://www.instagram.com/p/Dfvc0d6OOug/",
+   "posted_at": "2026-11-15T00:07:43+00:00",
+   "club": {
+    "handle": "uottawa_essaeg",
+    "name": {
+     "en": "",
+     "fr": ""
+    },
+    "acronym": {
+     "en": "",
+     "fr": ""
+    },
+    "avatar": null
+   },
+   "category": "academic",
+   "tags": [
+    "academic"
+   ],
+   "title": {
+    "en": "The stage is yours!",
+    "fr": "La scène est à vous!"
+   },
+   "description": {
+    "en": "Lieu : UCU Agora\nDate : 26 novembre 2026\nThe stage is yours!\nIn support of: Ottawa Food Bank\nLocation: UCU Agora \nDate: November 26, 2026 \nTime: 7:00 PM – 9:00 PM (~10 minute performance slots)\nEntry: by donation (suggested $5) or by non-perishable food item",
+    "fr": "La scène est à vous!\nAu profit de : la Banque alimentaire d’Ottawa\nLieu : UCU Agora\nDate : 26 novembre 2026\nTemps : 19 h – 21 h (créneaux de performance d’environ 10 minutes)\nEntrée : par don (somme suggérée : 5 $) ou en apportant un aliment non périssable\nLocation: UCU Agora \nDate: November 26, 2026 \nTime: 7:00 PM – 9:00 PM (~10 minute performance slots)\nEntry: by donation (suggested $5) or by non-perishable food item"
+   },
+   "start": "2026-11-26T19:00:00-05:00",
+   "end": "2026-11-26T21:00:00-05:00",
+   "end_date": null,
+   "date_only": false,
+   "duration_min": 120,
+   "location": {
+    "text": "UCU Agora",
+    "online": false
+   },
+   "rsvp_required": true,
+   "cost": {
+    "type": "paid",
+    "amount": "$5"
+   },
+   "languages": [
+    "en",
+    "fr"
+   ],
+   "language_note": null,
+   "translated_from": null,
+   "recurrence": null,
+   "dependency": null,
+   "updates": [],
+   "status": "active",
+   "image": "data/posters/c1522a286414.jpg"
+  },
+  {
+   "id": "instagram:Df0fxufyodQ",
+   "platform": "instagram",
+   "post_id": "Df0fxufyodQ",
+   "post_url": "https://www.instagram.com/p/Df0fxufyodQ/",
+   "posted_at": "2026-11-16T23:06:08+00:00",
+   "club": {
+    "handle": "aeeippssa.uo",
+    "name": {
+     "en": "",
+     "fr": ""
+    },
+    "acronym": {
+     "en": "",
+     "fr": ""
+    },
+    "avatar": null
+   },
+   "category": "academic",
+   "tags": [
+    "academic"
+   ],
+   "title": {
+    "en": "Join IPPSSA for a guided tour of Canada’s Supreme Court (in its temporary location at the…",
+    "fr": "Rejoignez l’AÉÉIP pour une visite guidée de la Cour suprême du Canada, dans ses locaux…"
+   },
+   "description": {
+    "en": "🏛️ Join IPPSSA for a guided tour of Canada’s Supreme Court (in its temporary location at the West Memorial Building) on November 27. Fill out the form at the link in our bio, participants will be selected on a first-come, first-serve basis, and selected participants will be contacted prior to the visit.",
+    "fr": "🏛️ Rejoignez l’AÉÉIP pour une visite guidée de la Cour suprême du Canada, dans ses locaux temporaires situés à l’Édifice commémoratif de l’Ouest, le 27 novembre !\nRemplissez le formulaire accessible à partir du lien dans notre bio. Les places seront attribuées selon le principe du premier arrivé, premier servi. Les personnes sélectionnées seront contactées avant la visite."
+   },
+   "start": "2026-11-27T15:00:00-05:00",
+   "end": null,
+   "end_date": null,
+   "date_only": false,
+   "duration_min": null,
+   "location": null,
+   "rsvp_required": true,
+   "cost": {
+    "type": "unknown",
+    "amount": null
+   },
+   "languages": [
+    "en",
+    "fr"
+   ],
+   "language_note": null,
+   "translated_from": null,
+   "recurrence": null,
+   "dependency": null,
+   "updates": [],
+   "status": "active",
+   "image": "data/posters/b754497f45de.jpg"
+  },
+  {
+   "id": "instagram:DgBhHWcOERq",
+   "platform": "instagram",
+   "post_id": "DgBhHWcOERq",
+   "post_url": "https://www.instagram.com/p/DgBhHWcOERq/",
+   "posted_at": "2026-11-22T00:28:41+00:00",
+   "club": {
+    "handle": "rwsa.uottawa",
+    "name": {
+     "en": "",
+     "fr": ""
+    },
+    "acronym": {
+     "en": "",
+     "fr": ""
+    },
+    "avatar": null
+   },
+   "category": "culture",
+   "tags": [
+    "culture"
+   ],
+   "title": {
+    "en": "One night only. The whole RwSA family in one room",
+    "fr": "Une seule séance. Toute la famille AÉRw réunie"
+   },
+   "description": {
+    "en": "🎬 One night only. The whole RwSA family in one room. 🇷🇼\nOur General Assembly is coming up! We’re getting together to look back on the year, talk about what’s next, and hear what you’d love to see from RwSA. Whether you’ve been here since day one or this is your first event with us, we can’t wait to see you! 🫶🏾\n🍿 Send this to whoever you’re bringing!",
+    "fr": "🎬 Une seule séance. Toute la famille AÉRw réunie. 🇷🇼\nNotre assemblée générale arrive! On se retrouve pour faire le point sur l’année, parler de la suite et entendre vos idées pour l’asso. Que tu sois là depuis le début ou que ce soit ton premier événement avec nous, on a hâte de te voir! 🫶🏾\n🍿 Envoie cette affiche à la personne qui vient avec toi!"
+   },
+   "start": "2026-11-27T17:00:00-05:00",
+   "end": "2026-11-27T20:00:00-05:00",
+   "end_date": null,
+   "date_only": false,
+   "duration_min": 180,
+   "location": {
+    "text": "CRX 240",
+    "online": false
+   },
+   "rsvp_required": false,
+   "cost": {
+    "type": "unknown",
+    "amount": null
+   },
+   "languages": [
+    "en",
+    "fr"
+   ],
+   "language_note": null,
+   "translated_from": null,
+   "recurrence": null,
+   "dependency": null,
+   "updates": [],
+   "status": "active",
+   "image": "data/posters/df11de0a7b23.jpg"
+  },
+  {
+   "id": "instagram:DgEGM6JBqim",
+   "platform": "instagram",
+   "post_id": "DgEGM6JBqim",
+   "post_url": "https://www.instagram.com/p/DgEGM6JBqim/",
+   "posted_at": "2026-11-23T00:30:06+00:00",
+   "club": {
+    "handle": "rwsa.uottawa",
+    "name": {
+     "en": "",
+     "fr": ""
+    },
+    "acronym": {
+     "en": "",
+     "fr": ""
+    },
+    "avatar": null
+   },
+   "category": "culture",
+   "tags": [
+    "culture"
+   ],
+   "title": {
+    "en": "THE EVENT OF THE YEAR IS ALMOST HERE!",
+    "fr": "L’ÉVÉNEMENT DE L’ANNÉE APPROCHE !"
+   },
+   "description": {
+    "en": "🎬 THE EVENT OF THE YEAR IS ALMOST HERE! 🇷🇼🔥\nAre you ready? 👀 Because trust us, this is ONE event you do NOT want to miss!\nOne night. One community. The whole Rwandan family together. 🇷🇼❤️\nMark your calendars. Bring your friends. See you there! 🔥",
+    "fr": "🎬 L’ÉVÉNEMENT DE L’ANNÉE APPROCHE ! 🇷🇼🔥\nVous êtes prêts ? 👀 Parce que croyez-nous, c’est LE rendez-vous à ne surtout pas manquer !\nUne soirée. Une communauté. Toute la famille rwandaise réunie. 🇷🇼❤️\nNotez la date, ramenez vos amis et préparez-vous ! On vous attend nombreux ! 🔥"
+   },
+   "start": "2026-11-27T17:00:00-05:00",
+   "end": "2026-11-27T20:00:00-05:00",
+   "end_date": null,
+   "date_only": false,
+   "duration_min": 180,
+   "location": {
+    "text": "CRX 240",
+    "online": false
+   },
+   "rsvp_required": false,
+   "cost": {
+    "type": "unknown",
+    "amount": null
+   },
+   "languages": [
+    "en",
+    "fr"
+   ],
+   "language_note": null,
+   "translated_from": null,
+   "recurrence": null,
+   "dependency": null,
+   "updates": [],
+   "status": "active",
+   "image": "data/posters/71cafaef1a64.jpg"
+  },
+  {
+   "id": "instagram:DgJJcmKOW00",
+   "platform": "instagram",
+   "post_id": "DgJJcmKOW00",
+   "post_url": "https://www.instagram.com/p/DgJJcmKOW00/",
+   "posted_at": "2026-11-24T23:35:40+00:00",
+   "club": {
+    "handle": "rwsa.uottawa",
+    "name": {
+     "en": "",
+     "fr": ""
+    },
+    "acronym": {
+     "en": "",
+     "fr": ""
+    },
+    "avatar": null
+   },
+   "category": "culture",
+   "tags": [
+    "culture"
+   ],
+   "title": {
+    "en": "Instagram vs. Reality",
+    "fr": "Instagram vs. Reality"
+   },
+   "description": {
+    "en": "Instagram vs. Reality 💀😭\n\nY’all thought we were serious for a second huh?\n\nAnywaysss, see y’all on Friday 🇷🇼😂\n\n——\n\nInstagram vs. Réalité 💀😭\n\nVous pensiez vraiment qu’on était sérieux ?\n\nBref, on se voit vendredi 🇷🇼😂\n\n🎥 @ketsiavisions",
+    "fr": "Instagram vs. Reality 💀😭\n\nY’all thought we were serious for a second huh?\n\nAnywaysss, see y’all on Friday 🇷🇼😂\n\n——\n\nInstagram vs. Réalité 💀😭\n\nVous pensiez vraiment qu’on était sérieux ?\n\nBref, on se voit vendredi 🇷🇼😂\n\n🎥 @ketsiavisions"
+   },
+   "start": "2026-11-27T17:00:00-05:00",
+   "end": "2026-11-27T20:00:00-05:00",
+   "end_date": null,
+   "date_only": false,
+   "duration_min": 180,
+   "location": {
+    "text": "CRX 240",
+    "online": false
+   },
+   "rsvp_required": false,
+   "cost": {
+    "type": "unknown",
+    "amount": null
+   },
+   "languages": [
+    "en"
+   ],
+   "language_note": "maybe_en",
+   "translated_from": null,
+   "recurrence": null,
+   "dependency": null,
+   "updates": [],
+   "status": "active",
+   "image": "data/posters/1537600cd9a0.jpg"
+  },
+  {
+   "id": "instagram:DgP-yvvlfNe",
+   "platform": "instagram",
+   "post_id": "DgP-yvvlfNe",
+   "post_url": "https://www.instagram.com/p/DgP-yvvlfNe/",
+   "posted_at": "2026-11-27T15:16:36+00:00",
+   "club": {
+    "handle": "ieeeuottawa",
+    "name": {
+     "en": "",
+     "fr": ""
+    },
+    "acronym": {
+     "en": "",
+     "fr": ""
+    },
+    "avatar": null
+   },
+   "category": "networking",
+   "tags": [
+    "networking"
+   ],
+   "title": {
+    "en": "Join us to explore ESP32 microcontrollers, learn how to connect them, and discover their…",
+    "fr": "Joignez-vous à nous pour découvrir les microcontrôleurs ESP32, apprendre à les connecter…"
+   },
+   "description": {
+    "en": "📡 WORKSHOP: ESPecially Connected! ⚡\nJoin us to explore ESP32 microcontrollers, learn how to connect them, and discover their functionality through hands-on experience with embedded electronics!\nWhether you’re new to microcontrollers or looking to expand your hardware and electronics skills, this workshop is for you!\n🔗 Sign up through the link in our bio!\nSee you there! 💙\n📡 ATELIER : ESPecially Connected! ⚡",
+    "fr": "📡 WORKSHOP: ESPecially Connected! ⚡\n📡 ATELIER : ESPecially Connected! ⚡\nJoignez-vous à nous pour découvrir les microcontrôleurs ESP32, apprendre à les connecter et explorer leurs fonctionnalités grâce à des activités pratiques en électronique embarquée !\nQue vous découvriez les microcontrôleurs ou que vous souhaitiez approfondir vos compétences en matériel électronique, cet atelier est fait pour vous!\n🔗 Inscrivez-vous via le lien dans notre bio!\nOn vous attend! 💙"
    },
    "start": "2026-11-27T18:00:00-05:00",
    "end": "2026-11-27T20:00:00-05:00",
@@ -91,7 +1690,8 @@
    "recurrence": null,
    "dependency": null,
    "updates": [],
-   "status": "active"
+   "status": "active",
+   "image": "data/posters/3e8f8212a5fc.jpg"
   },
   {
    "id": "instagram:DgOSDYYhW-s",
@@ -101,8 +1701,14 @@
    "posted_at": "2026-11-26T23:29:07+00:00",
    "club": {
     "handle": "uomsa.aemuo",
-    "name": "",
-    "acronym": "",
+    "name": {
+     "en": "",
+     "fr": ""
+    },
+    "acronym": {
+     "en": "",
+     "fr": ""
+    },
     "avatar": null
    },
    "category": "religion",
@@ -110,12 +1716,188 @@
     "religion"
    ],
    "title": {
-    "en": "As-salamu alaykum,",
-    "fr": "As-salamu alaykum,"
+    "en": "ROOTS | Session 10: Until We Meet Again is",
+    "fr": "ROOTS | Séance 10 : Jusqu’à la prochaine fois est"
    },
    "description": {
-    "en": "As-salamu alaykum,\n\n🚨 REMINDER:\n🌱 ROOTS | Session 10: Until We Meet Again is TOMORROW!\n\nJoin us for the final session of our Seerah workshop and of course, enjoy free PIZZA! 🍕\n\n📅 November 27 ⏰ 6:00–7:30 PM 📍 MRT 212\n\nWe hope to see you there!\n—————\n\nAs-salamu alaykum,\n\n🚨RAPPEL:\n🌱 ROOTS | Séance 10 : Jusqu’à la prochaine fois est DEMAIN\n\nJoignez-vous à nous pour la dernière séance de notre atelier sur la Seerah et bien sûr, profitez de PIZZA gratuite! 🍕\n\n📅 27 novembre ⏰ 18 h à 19 h 30 📍 MRT 212\n\nAu plaisir de vous y voir!",
-    "fr": "As-salamu alaykum,\n\n🚨 REMINDER:\n🌱 ROOTS | Session 10: Until We Meet Again is TOMORROW!\n\nJoin us for the final session of our Seerah workshop and of course, enjoy free PIZZA! 🍕\n\n📅 November 27 ⏰ 6:00–7:30 PM 📍 MRT 212\n\nWe hope to see you there!\n—————\n\nAs-salamu alaykum,\n\n🚨RAPPEL:\n🌱 ROOTS | Séance 10 : Jusqu’à la prochaine fois est DEMAIN\n\nJoignez-vous à nous pour la dernière séance de notre atelier sur la Seerah et bien sûr, profitez de PIZZA gratuite! 🍕\n\n📅 27 novembre ⏰ 18 h à 19 h 30 📍 MRT 212\n\nAu plaisir de vous y voir!"
+    "en": "As-salamu alaykum,\n🚨 REMINDER:\n🌱 ROOTS | Session 10: Until We Meet Again is TOMORROW!\nJoin us for the final session of our Seerah workshop and of course, enjoy free PIZZA! 🍕\nWe hope to see you there!\nAs-salamu alaykum,\n🚨RAPPEL:",
+    "fr": "As-salamu alaykum,\n🚨 REMINDER:\nAs-salamu alaykum,\n🚨RAPPEL:\n🌱 ROOTS | Séance 10 : Jusqu’à la prochaine fois est DEMAIN\nJoignez-vous à nous pour la dernière séance de notre atelier sur la Seerah et bien sûr, profitez de PIZZA gratuite! 🍕\nAu plaisir de vous y voir!"
+   },
+   "start": "2026-11-27T18:00:00-05:00",
+   "end": "2026-11-27T19:30:00-05:00",
+   "end_date": null,
+   "date_only": false,
+   "duration_min": 90,
+   "location": {
+    "text": "MRT 212",
+    "online": false
+   },
+   "rsvp_required": false,
+   "cost": {
+    "type": "free",
+    "amount": null
+   },
+   "languages": [
+    "en",
+    "fr"
+   ],
+   "language_note": null,
+   "translated_from": null,
+   "recurrence": null,
+   "dependency": null,
+   "updates": [
+    {
+     "kind": "rescheduled",
+     "at": "2026-11-20T15:53:43+00:00",
+     "url": "https://www.instagram.com/p/Df-BeZOmyog/",
+     "old": "2026-11-27T18:00:00-05:00",
+     "new": "2026-11-12T18:00:00-05:00"
+    }
+   ],
+   "status": "active",
+   "image": "data/posters/3cdba6c0b70f.jpg"
+  },
+  {
+   "id": "instagram:DgOL0OXyyGc",
+   "platform": "instagram",
+   "post_id": "DgOL0OXyyGc",
+   "post_url": "https://www.instagram.com/p/DgOL0OXyyGc/",
+   "posted_at": "2026-11-27T00:07:10+00:00",
+   "club": {
+    "handle": "uottawa.susa",
+    "name": {
+     "en": "Sudanese Students Association",
+     "fr": "Association des étudiants soudanais"
+    },
+    "acronym": {
+     "en": "SUSA",
+     "fr": "AÉS"
+    },
+    "avatar": null
+   },
+   "category": "culture",
+   "tags": [
+    "culture"
+   ],
+   "title": {
+    "en": "TOMORROW! Join us for an evening celebrating Sudanese voices, culture and heritage!",
+    "fr": "C’EST DEMAIN ! Une soirée pour célébrer les voix, la culture et le patrimoine soudanais !"
+   },
+   "description": {
+    "en": "🇸🇩🇸🇸 TOMORROW! Join us for an evening celebrating Sudanese voices, culture and heritage!",
+    "fr": "🇸🇩🇸🇸C’EST DEMAIN ! Une soirée pour célébrer les voix, la culture et le patrimoine soudanais !"
+   },
+   "start": "2026-11-27T18:00:00-05:00",
+   "end": "2026-11-27T21:00:00-05:00",
+   "end_date": null,
+   "date_only": false,
+   "duration_min": 180,
+   "location": {
+    "text": "CRX 140, University of Ottawa",
+    "online": false
+   },
+   "rsvp_required": false,
+   "cost": {
+    "type": "unknown",
+    "amount": null
+   },
+   "languages": [
+    "en",
+    "fr"
+   ],
+   "language_note": null,
+   "translated_from": null,
+   "recurrence": null,
+   "dependency": null,
+   "updates": [],
+   "status": "active",
+   "image": "data/posters/aaf48b0cddd0.jpg"
+  },
+  {
+   "id": "instagram:DgOYmkHDvNV",
+   "platform": "instagram",
+   "post_id": "DgOYmkHDvNV",
+   "post_url": "https://www.instagram.com/p/DgOYmkHDvNV/",
+   "posted_at": "2026-11-27T00:23:39+00:00",
+   "club": {
+    "handle": "uottawa.susa",
+    "name": {
+     "en": "Sudanese Students Association",
+     "fr": "Association des étudiants soudanais"
+    },
+    "acronym": {
+     "en": "SUSA",
+     "fr": "AÉS"
+    },
+    "avatar": null
+   },
+   "category": "culture",
+   "tags": [
+    "culture"
+   ],
+   "title": {
+    "en": "THE PROGRAM IS HERE!",
+    "fr": "LE PROGRAMME EST LÀ !"
+   },
+   "description": {
+    "en": "🇸🇩🇸🇸 THE PROGRAM IS HERE!\nHere’s what’s waiting for you at SAWT AL-SUDAN! From panel discussions and dance performances to a Sudanese exhibition and open-mic session, there’s something for everyone!\nJoin us TOMORROW for an evening of culture, connection and celebration. ❤️",
+    "fr": "🇸🇩🇸🇸 LE PROGRAMME EST LÀ !\nDécouvrez ce qui vous attend à SAWT AL-SUDAN ! Discussions, spectacles de danse, exposition soudanaise et micro ouvert : il y en aura pour tous les goûts !\nRejoignez-nous DEMAIN pour une soirée de culture, de partage et de célébration. ❤️"
+   },
+   "start": "2026-11-27T18:00:00-05:00",
+   "end": "2026-11-27T21:00:00-05:00",
+   "end_date": null,
+   "date_only": false,
+   "duration_min": 180,
+   "location": {
+    "text": "CRX 140, University of Ottawa",
+    "online": false
+   },
+   "rsvp_required": false,
+   "cost": {
+    "type": "unknown",
+    "amount": null
+   },
+   "languages": [
+    "en",
+    "fr"
+   ],
+   "language_note": null,
+   "translated_from": null,
+   "recurrence": null,
+   "dependency": null,
+   "updates": [],
+   "status": "active",
+   "image": "data/posters/e711f56d44e1.jpg"
+  },
+  {
+   "id": "instagram:DgJVYj7mDkP",
+   "platform": "instagram",
+   "post_id": "DgJVYj7mDkP",
+   "post_url": "https://www.instagram.com/p/DgJVYj7mDkP/",
+   "posted_at": "2026-11-25T01:19:20+00:00",
+   "club": {
+    "handle": "uomsa.aemuo",
+    "name": {
+     "en": "",
+     "fr": ""
+    },
+    "acronym": {
+     "en": "",
+     "fr": ""
+    },
+    "avatar": null
+   },
+   "category": "religion",
+   "tags": [
+    "religion"
+   ],
+   "title": {
+    "en": "ROOTS | Session 10: Until We Meet Again",
+    "fr": "ROOTS | Séance 10 : Jusqu’à la prochaine fois"
+   },
+   "description": {
+    "en": "As-salamu alaykum,\n🌱 ROOTS | Session 10: Until We Meet Again\nJoin us for the final session of our Seerah workshop as we reflect on the lessons of the Prophet’s ﷺ life and how we can carry them forward.\nAnd of course, enjoy FREE pizza! 🍕\nWe hope to see you there!\nAs-salamu alaykum,",
+    "fr": "As-salamu alaykum,\nAs-salamu alaykum,\n🌱 ROOTS | Séance 10 : Jusqu’à la prochaine fois \nJoignez-vous à nous pour la dernière séance de notre atelier sur la Seerah, où nous réfléchirons aux enseignements de la vie du Prophète ﷺ et à la façon de les mettre en pratique.\nEt bien sûr, profitez de pizza gratuite! 🍕\nAu plaisir de vous y voir!"
    },
    "start": "2026-11-27T18:00:00-05:00",
    "end": "2026-11-27T19:30:00-05:00",
@@ -140,18 +1922,25 @@
    "recurrence": null,
    "dependency": null,
    "updates": [],
-   "status": "active"
+   "status": "active",
+   "image": "data/posters/2278d97c6ffc.jpg"
   },
   {
-   "id": "instagram:DgOL0OXyyGc",
+   "id": "instagram:DgAuJ_FFMqW",
    "platform": "instagram",
-   "post_id": "DgOL0OXyyGc",
-   "post_url": "https://www.instagram.com/p/DgOL0OXyyGc/",
-   "posted_at": "2026-11-27T00:07:10+00:00",
+   "post_id": "DgAuJ_FFMqW",
+   "post_url": "https://www.instagram.com/p/DgAuJ_FFMqW/",
+   "posted_at": "2026-11-21T17:02:37+00:00",
    "club": {
     "handle": "uottawa.susa",
-    "name": "",
-    "acronym": "",
+    "name": {
+     "en": "Sudanese Students Association",
+     "fr": "Association des étudiants soudanais"
+    },
+    "acronym": {
+     "en": "SUSA",
+     "fr": "AÉS"
+    },
     "avatar": null
    },
    "category": "culture",
@@ -159,12 +1948,12 @@
     "culture"
    ],
    "title": {
-    "en": "TOMORROW! Join us for an evening celebrating Sudanese voices, culture and heritage!",
-    "fr": "TOMORROW! Join us for an evening celebrating Sudanese voices, culture and heritage!"
+    "en": "A night celebrating Sudanese voices, culture, and community!",
+    "fr": "SAWT AL-SUDAN | LES VOIX DU SOUDAN"
    },
    "description": {
-    "en": "🇸🇩🇸🇸 TOMORROW! Join us for an evening celebrating Sudanese voices, culture and heritage!\n\n📍 CRX 140, University of Ottawa\n🕕 6 PM – 9 PM\n\n🇸🇩🇸🇸C’EST DEMAIN ! Une soirée pour célébrer les voix, la culture et le patrimoine soudanais !\n\n📍 CRX 140, Université d’Ottawa\n🕕 18 h – 21 h",
-    "fr": "🇸🇩🇸🇸 TOMORROW! Join us for an evening celebrating Sudanese voices, culture and heritage!\n\n📍 CRX 140, University of Ottawa\n🕕 6 PM – 9 PM\n\n🇸🇩🇸🇸C’EST DEMAIN ! Une soirée pour célébrer les voix, la culture et le patrimoine soudanais !\n\n📍 CRX 140, Université d’Ottawa\n🕕 18 h – 21 h"
+    "en": "🇸🇩 SAWT AL-SUDAN | صوت السودان 🇸🇩\nA night celebrating Sudanese voices, culture, and community! ❤️\nJoin us for an evening filled with meaningful conversations, cultural performances, dancing, and of course, FREE FOOD! 👀🍽️",
+    "fr": "🇸🇩 SAWT AL-SUDAN | صوت السودان 🇸🇩\n🇸🇩 SAWT AL-SUDAN | LES VOIX DU SOUDAN 🇸🇩\nUne soirée pour célébrer les voix, la culture et la communauté soudanaises ! ❤️\nAu programme : discussions enrichissantes, performances culturelles, danse et bien sûr, DE LA NOURRITURE GRATUITE ! 👀🍽️"
    },
    "start": "2026-11-27T18:00:00-05:00",
    "end": "2026-11-27T21:00:00-05:00",
@@ -172,7 +1961,63 @@
    "date_only": false,
    "duration_min": 180,
    "location": {
-    "text": "CRX 140, University of Ottawa",
+    "text": "CRX 140",
+    "online": false
+   },
+   "rsvp_required": false,
+   "cost": {
+    "type": "free",
+    "amount": null
+   },
+   "languages": [
+    "en",
+    "fr"
+   ],
+   "language_note": null,
+   "translated_from": null,
+   "recurrence": null,
+   "dependency": null,
+   "updates": [],
+   "status": "active",
+   "image": "data/posters/a39a3e5b9e4b.jpg"
+  },
+  {
+   "id": "instagram:DgGDtJjSt_2",
+   "platform": "instagram",
+   "post_id": "DgGDtJjSt_2",
+   "post_url": "https://www.instagram.com/p/DgGDtJjSt_2/",
+   "posted_at": "2026-11-23T18:50:48+00:00",
+   "club": {
+    "handle": "uottawa.susa",
+    "name": {
+     "en": "Sudanese Students Association",
+     "fr": "Association des étudiants soudanais"
+    },
+    "acronym": {
+     "en": "SUSA",
+     "fr": "AÉS"
+    },
+    "avatar": null
+   },
+   "category": "culture",
+   "tags": [
+    "culture"
+   ],
+   "title": {
+    "en": "SAWT AL-SUDAN | صوت السودان — VOICES OF SUDAN",
+    "fr": "SAWT AL-SUDAN | صوت السودان — LES VOIX DU SOUDAN"
+   },
+   "description": {
+    "en": "🇸🇩🇸🇸SAWT AL-SUDAN | صوت السودان — VOICES OF SUDAN\nA celebration of Sudanese voices, culture, music, art, and heritage. ❤️\nJoin us for an evening dedicated to the beauty, richness, and diversity of Sudanese culture. Come experience the sounds, stories, and traditions that bring us together.\nBring your friends, celebrate our culture, and let Sudanese voices be heard. We can’t wait to see you there!",
+    "fr": "SAWT AL-SUDAN | صوت السودان — LES VOIX DU SOUDAN\nUne célébration des voix, de la culture, de la musique, de l’art et du patrimoine soudanais. ❤️\nRejoignez-nous pour une soirée dédiée à la richesse et à la beauté de la culture soudanaise. Venez découvrir nos sons, nos histoires et nos traditions qui nous rassemblent.\nVenez avec vos amis, célébrons notre culture et faisons entendre les voix du Soudan. On vous attend nombreux !"
+   },
+   "start": "2026-11-27T18:00:00-05:00",
+   "end": "2026-11-27T21:00:00-05:00",
+   "end_date": null,
+   "date_only": false,
+   "duration_min": 180,
+   "location": {
+    "text": "CRX 140",
     "online": false
    },
    "rsvp_required": false,
@@ -189,56 +2034,8 @@
    "recurrence": null,
    "dependency": null,
    "updates": [],
-   "status": "active"
-  },
-  {
-   "id": "instagram:DgOYmkHDvNV",
-   "platform": "instagram",
-   "post_id": "DgOYmkHDvNV",
-   "post_url": "https://www.instagram.com/p/DgOYmkHDvNV/",
-   "posted_at": "2026-11-27T00:23:39+00:00",
-   "club": {
-    "handle": "uottawa.susa",
-    "name": "",
-    "acronym": "",
-    "avatar": null
-   },
-   "category": "culture",
-   "tags": [
-    "culture"
-   ],
-   "title": {
-    "en": "THE PROGRAM IS HERE!",
-    "fr": "THE PROGRAM IS HERE!"
-   },
-   "description": {
-    "en": "🇸🇩🇸🇸 THE PROGRAM IS HERE!\n\nHere’s what’s waiting for you at SAWT AL-SUDAN! From panel discussions and dance performances to a Sudanese exhibition and open-mic session, there’s something for everyone!\n\nJoin us TOMORROW for an evening of culture, connection and celebration. ❤️\n\n📅 Friday, November 27\n📍 CRX 140, University of Ottawa\n🕕 6 PM – 9 PM\n\n🇸🇩🇸🇸 LE PROGRAMME EST LÀ !\n\nDécouvrez ce qui vous attend à SAWT AL-SUDAN ! Discussions, spectacles de danse, exposition soudanaise et micro ouvert : il y en aura pour tous les goûts !\n\nRejoignez-nous DEMAIN pour une soirée de culture, de partage et de cé…",
-    "fr": "🇸🇩🇸🇸 THE PROGRAM IS HERE!\n\nHere’s what’s waiting for you at SAWT AL-SUDAN! From panel discussions and dance performances to a Sudanese exhibition and open-mic session, there’s something for everyone!\n\nJoin us TOMORROW for an evening of culture, connection and celebration. ❤️\n\n📅 Friday, November 27\n📍 CRX 140, University of Ottawa\n🕕 6 PM – 9 PM\n\n🇸🇩🇸🇸 LE PROGRAMME EST LÀ !\n\nDécouvrez ce qui vous attend à SAWT AL-SUDAN ! Discussions, spectacles de danse, exposition soudanaise et micro ouvert : il y en aura pour tous les goûts !\n\nRejoignez-nous DEMAIN pour une soirée de culture, de partage et de cé…"
-   },
-   "start": "2026-11-27T18:00:00-05:00",
-   "end": "2026-11-27T21:00:00-05:00",
-   "end_date": null,
-   "date_only": false,
-   "duration_min": 180,
-   "location": {
-    "text": "CRX 140, University of Ottawa",
-    "online": false
-   },
-   "rsvp_required": false,
-   "cost": {
-    "type": "unknown",
-    "amount": null
-   },
-   "languages": [
-    "en",
-    "fr"
-   ],
-   "language_note": null,
-   "translated_from": null,
-   "recurrence": null,
-   "dependency": null,
-   "updates": [],
-   "status": "active"
+   "status": "active",
+   "image": "data/posters/e653ab77ed76.jpg"
   },
   {
    "id": "instagram:DgQGoEOvwYy",
@@ -248,8 +2045,14 @@
    "posted_at": "2026-11-27T16:29:32+00:00",
    "club": {
     "handle": "uomsa.aemuo",
-    "name": "",
-    "acronym": "",
+    "name": {
+     "en": "",
+     "fr": ""
+    },
+    "acronym": {
+     "en": "",
+     "fr": ""
+    },
     "avatar": null
    },
    "category": "religion",
@@ -261,8 +2064,8 @@
     "fr": "As-salamu alaykum,"
    },
    "description": {
-    "en": "As-salamu alaykum,\n\n🌷 BAQATUNA RECAP\n\nA gentle reminder about Baqatuna TOMORROW | باقتنا🌷 \n\n📅 every Saturday\n⏰Sisters: 11AM - 1:30PM\n⏰Brothers: 2PM - 4:30PM\n📍CBY Colonel By B205 ⬅️\n 🌱 Registration is open year-round! 🌷 Sign up through the link ⬇️.\nhttps://forms.gle/BnipPu51p9mEQbWZ6\n—————————\n\nAs-salamu alaykum,\n\n🌷BAQATUNA RÉCAP\n\nPetit rappel : Baqatuna | باقتنا DEMAIN🌷\n\n📅 Tous les samdi\n⏰ Sœurs : 11 h à 13 h 30\n⏰ Frères : 14 h à 16 h 30\n📍 Lieu : CBY Colonel By B205 ⬅️\n\n🌱 Les inscriptions sont ouvertes toute l’année !\n🌷 Inscrivez-vous via le lien ⬇️.\nhttps://forms.gle/BnipPu51p9mEQbWZ6",
-    "fr": "As-salamu alaykum,\n\n🌷 BAQATUNA RECAP\n\nA gentle reminder about Baqatuna TOMORROW | باقتنا🌷 \n\n📅 every Saturday\n⏰Sisters: 11AM - 1:30PM\n⏰Brothers: 2PM - 4:30PM\n📍CBY Colonel By B205 ⬅️\n 🌱 Registration is open year-round! 🌷 Sign up through the link ⬇️.\nhttps://forms.gle/BnipPu51p9mEQbWZ6\n—————————\n\nAs-salamu alaykum,\n\n🌷BAQATUNA RÉCAP\n\nPetit rappel : Baqatuna | باقتنا DEMAIN🌷\n\n📅 Tous les samdi\n⏰ Sœurs : 11 h à 13 h 30\n⏰ Frères : 14 h à 16 h 30\n📍 Lieu : CBY Colonel By B205 ⬅️\n\n🌱 Les inscriptions sont ouvertes toute l’année !\n🌷 Inscrivez-vous via le lien ⬇️.\nhttps://forms.gle/BnipPu51p9mEQbWZ6"
+    "en": "As-salamu alaykum,\n\n🌷 BAQATUNA RECAP\n\nA gentle reminder about Baqatuna TOMORROW | باقتنا🌷 \n\n🌱 Registration is open year-round!\n🌷 Sign up through the link ⬇️.\nhttps://forms.gle/BnipPu51p9mEQbWZ6\n—————————\n\nAs-salamu alaykum,\n\n🌷BAQATUNA RÉCAP\n\nPetit rappel : Baqatuna | باقتنا DEMAIN🌷\n\n🌱 Les inscriptions sont ouvertes toute l’année !\n🌷 Inscrivez-vous via le lien ⬇️.\nhttps://forms.gle/BnipPu51p9mEQbWZ6",
+    "fr": "As-salamu alaykum,\n\n🌷 BAQATUNA RECAP\n\nA gentle reminder about Baqatuna TOMORROW | باقتنا🌷 \n\n🌱 Registration is open year-round!\n🌷 Sign up through the link ⬇️.\nhttps://forms.gle/BnipPu51p9mEQbWZ6\n—————————\n\nAs-salamu alaykum,\n\n🌷BAQATUNA RÉCAP\n\nPetit rappel : Baqatuna | باقتنا DEMAIN🌷\n\n🌱 Les inscriptions sont ouvertes toute l’année !\n🌷 Inscrivez-vous via le lien ⬇️.\nhttps://forms.gle/BnipPu51p9mEQbWZ6"
    },
    "start": "2026-11-28T11:00:00-05:00",
    "end": "2026-11-28T13:30:00-05:00",
@@ -314,7 +2117,176 @@
    },
    "dependency": null,
    "updates": [],
-   "status": "active"
+   "status": "active",
+   "image": "data/posters/9cdff383b4cc.jpg"
+  },
+  {
+   "id": "instagram:DgBBqrdmMqQ",
+   "platform": "instagram",
+   "post_id": "DgBBqrdmMqQ",
+   "post_url": "https://www.instagram.com/p/DgBBqrdmMqQ/",
+   "posted_at": "2026-11-21T19:53:07+00:00",
+   "club": {
+    "handle": "uomsa.aemuo",
+    "name": {
+     "en": "",
+     "fr": ""
+    },
+    "acronym": {
+     "en": "",
+     "fr": ""
+    },
+    "avatar": null
+   },
+   "category": "religion",
+   "tags": [
+    "religion"
+   ],
+   "title": {
+    "en": "Get ready for Brothers Sleepover!",
+    "fr": "NUITÉE DES FRÈRES"
+   },
+   "description": {
+    "en": "As-salamu alaykum!\n🌙 BROTHERS SLEEPOVER\n✨ Get ready for Brothers Sleepover! A night of brotherhood, fun, games, and meaningful connections.\n🎟️ Entry fee: $10\nWe can’t wait to see you there! 🤍\n🔗 Register in the bio ⬇️\nAs-salamu alaykum!\n🎟️ Frais d’entrée : 10 $",
+    "fr": "As-salamu alaykum!\n🌙 BROTHERS SLEEPOVER\n🎟️ Entry fee: $10\nAs-salamu alaykum!\n🌙 NUITÉE DES FRÈRES\n✨Préparez-vous pour la Nuitée des frères! Une soirée de fraternité, de plaisir, de jeux et de belles connexions.\n🎟️ Frais d’entrée : 10 $\nOn a hâte de vous y voir! 🤍\n🔗 Inscrivez-vous via bio ⬇️"
+   },
+   "start": "2026-11-28T20:00:00-05:00",
+   "end": "2026-11-29T06:30:00-05:00",
+   "end_date": null,
+   "date_only": false,
+   "duration_min": 630,
+   "location": {
+    "text": "AMA Community Hall – 1216 Huntclub Rd",
+    "online": false
+   },
+   "rsvp_required": true,
+   "cost": {
+    "type": "paid",
+    "amount": "$10"
+   },
+   "languages": [
+    "en",
+    "fr"
+   ],
+   "language_note": null,
+   "translated_from": null,
+   "recurrence": null,
+   "dependency": null,
+   "updates": [],
+   "status": "active",
+   "image": "data/posters/c9cd079f290a.jpg"
+  },
+  {
+   "id": "instagram:DgBYTtXmJiU",
+   "platform": "instagram",
+   "post_id": "DgBYTtXmJiU",
+   "post_url": "https://www.instagram.com/p/DgBYTtXmJiU/",
+   "posted_at": "2026-11-21T23:10:18+00:00",
+   "club": {
+    "handle": "uomsa.aemuo",
+    "name": {
+     "en": "",
+     "fr": ""
+    },
+    "acronym": {
+     "en": "",
+     "fr": ""
+    },
+    "avatar": null
+   },
+   "category": "religion",
+   "tags": [
+    "religion"
+   ],
+   "title": {
+    "en": "Get ready for a night of fun, sisterhood, and unforgettable memories!",
+    "fr": "Nuit des sœurs à la mosquée"
+   },
+   "description": {
+    "en": "As-salamu alaykum,\n🌙 Sisters Masjid Sleepover \nGet ready for a night of fun, sisterhood, and unforgettable memories! 💕\n🚨 Ages 16+\nBring your blanket, pillow, optional sleeping bag, favourite game, and lots of energy!\nRegister in the bio! We can’t wait to see you, InshaAllah! 🌸\nAs-salamu alaykum,",
+    "fr": "As-salamu alaykum,\n🌙 Sisters Masjid Sleepover \n🚨 Ages 16+\nAs-salamu alaykum,\n🌙 Nuit des sœurs à la mosquée \nPréparez-vous à passer une soirée remplie de plaisir, de fraternité et de beaux souvenirs! 💕\n🚨 16 ans et plus\nApportez votre couverture, votre oreiller, votre sac de couchage (facultatif), votre jeu préféré et plein d’énergie!\nInscrivez-vous dans le bio! Au plaisir de vous retrouver, InshaAllah! 🌸"
+   },
+   "start": "2026-11-28T20:30:00-05:00",
+   "end": "2026-11-29T06:30:00-05:00",
+   "end_date": "2026-11-29",
+   "date_only": false,
+   "duration_min": 600,
+   "location": {
+    "text": "OMA Basement",
+    "online": false
+   },
+   "rsvp_required": true,
+   "cost": {
+    "type": "unknown",
+    "amount": null
+   },
+   "languages": [
+    "en",
+    "fr"
+   ],
+   "language_note": null,
+   "translated_from": null,
+   "recurrence": null,
+   "dependency": null,
+   "updates": [],
+   "status": "active",
+   "image": "data/posters/92e6d41cfe4c.jpg"
+  },
+  {
+   "id": "instagram:DgRJUzHFOuh",
+   "platform": "instagram",
+   "post_id": "DgRJUzHFOuh",
+   "post_url": "https://www.instagram.com/p/DgRJUzHFOuh/",
+   "posted_at": "2026-11-28T02:07:53+00:00",
+   "club": {
+    "handle": "uo.ebc",
+    "name": {
+     "en": "",
+     "fr": ""
+    },
+    "acronym": {
+     "en": "",
+     "fr": ""
+    },
+    "avatar": null
+   },
+   "category": "networking",
+   "tags": [
+    "networking"
+   ],
+   "title": {
+    "en": "Locked in for finals? Come study with the EBC for a calm, productive session, whether…",
+    "fr": "À fond dans les révisions ?"
+   },
+   "description": {
+    "en": "Locked in for finals? 📚 Come study with the EBC for a calm, productive session, whether you’re alone or with friends! Free drinks & snacks on us to keep you fueled. All you need to do is fill out the sign-up form in our bio!🧃🥨",
+    "fr": "À fond dans les révisions ? 📚 Venez étudier avec le CGC dans une ambiance calme et productive, seul(e) ou entre amis ! Boissons et collations offertes sur place pour garder le rythme. Il vous suffit de remplir le formulaire d'inscription dans notre bio ! 🧃🥨"
+   },
+   "start": "2026-12-04T16:00:00-05:00",
+   "end": "2026-12-04T21:00:00-05:00",
+   "end_date": null,
+   "date_only": false,
+   "duration_min": 300,
+   "location": {
+    "text": "STM 364",
+    "online": false
+   },
+   "rsvp_required": true,
+   "cost": {
+    "type": "unknown",
+    "amount": null
+   },
+   "languages": [
+    "en",
+    "fr"
+   ],
+   "language_note": null,
+   "translated_from": null,
+   "recurrence": null,
+   "dependency": null,
+   "updates": [],
+   "status": "active",
+   "image": "data/posters/61a94d42b92a.jpg"
   },
   {
    "id": "instagram:DgQUjh0oncc",
@@ -324,8 +2296,14 @@
    "posted_at": "2026-11-27T18:31:43+00:00",
    "club": {
     "handle": "aeeippssa.uo",
-    "name": "",
-    "acronym": "",
+    "name": {
+     "en": "",
+     "fr": ""
+    },
+    "acronym": {
+     "en": "",
+     "fr": ""
+    },
     "avatar": null
    },
    "category": "academic",
@@ -361,6 +2339,59 @@
    "dependency": null,
    "updates": [],
    "status": "active"
+  },
+  {
+   "id": "instagram:Df_oxE2Fm6-",
+   "platform": "instagram",
+   "post_id": "Df_oxE2Fm6-",
+   "post_url": "https://www.instagram.com/p/Df_oxE2Fm6-/",
+   "posted_at": "2026-11-21T06:56:17+00:00",
+   "club": {
+    "handle": "uottawa_essaeg",
+    "name": {
+     "en": "",
+     "fr": ""
+    },
+    "acronym": {
+     "en": "",
+     "fr": ""
+    },
+    "avatar": null
+   },
+   "category": "academic",
+   "tags": [
+    "academic"
+   ],
+   "title": {
+    "en": "Need a killer outfit for DUSTED?",
+    "fr": "Besoin d’un look d’enfer pour DUSTED?"
+   },
+   "description": {
+    "en": "Need a killer outfit for DUSTED? Here are some outfit inspos from your favorite horror games to help you dress to kill!\nPick your character, bring the horror, and survive the night 😈",
+    "fr": "Besoin d’un look d’enfer pour DUSTED? Voici quelques idées de tenues inspirées de tes jeux d’horreur préférés pour t’aider à être habillé à faire peur!\nChoisis ton personnage, sème la terreur et survis à la soirée 😈"
+   },
+   "start": "2027-01-01T00:00:00-05:00",
+   "end": null,
+   "end_date": null,
+   "date_only": true,
+   "duration_min": null,
+   "location": null,
+   "rsvp_required": false,
+   "cost": {
+    "type": "unknown",
+    "amount": null
+   },
+   "languages": [
+    "en",
+    "fr"
+   ],
+   "language_note": null,
+   "translated_from": null,
+   "recurrence": null,
+   "dependency": null,
+   "updates": [],
+   "status": "active",
+   "image": "data/posters/84d6097bbd56.jpg"
   }
  ]
 }
