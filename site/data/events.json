@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T19:03:00.971768-05:00",
+ "generated_at": "2026-11-27T19:12:21.674679-05:00",
  "timezone": "America/Toronto",
  "categories": [
   {
@@ -43,5 +43,324 @@
    "fr": "Autre"
   }
  ],
- "events": []
+ "events": [
+  {
+   "id": "instagram:DgP-yvvlfNe",
+   "platform": "instagram",
+   "post_id": "DgP-yvvlfNe",
+   "post_url": "https://www.instagram.com/p/DgP-yvvlfNe/",
+   "posted_at": "2026-11-27T15:16:36+00:00",
+   "club": {
+    "handle": "ieeeuottawa",
+    "name": "",
+    "acronym": "",
+    "avatar": null
+   },
+   "category": "networking",
+   "tags": [
+    "networking"
+   ],
+   "title": {
+    "en": "WORKSHOP ESPecially Connected!",
+    "fr": "WORKSHOP ESPecially Connected!"
+   },
+   "description": {
+    "en": "📡 WORKSHOP: ESPecially Connected! ⚡\n\nJoin us to explore ESP32 microcontrollers, learn how to connect them, and discover their functionality through hands-on experience with embedded electronics!\n\nWhether you’re new to microcontrollers or looking to expand your hardware and electronics skills, this workshop is for you!\n\n📅 Friday, November 27\n⏰ 6 to 8 PM\n📍 STM 364\n\n🔗 Sign up through the link in our bio!\n\nSee you there! 💙\n\n📡 ATELIER : ESPecially Connected! ⚡\n\nJoignez-vous à nous pour découvrir les microcontrôleurs ESP32, apprendre à les connecter et explorer leurs fonctionnalités grâce à des acti…",
+    "fr": "📡 WORKSHOP: ESPecially Connected! ⚡\n\nJoin us to explore ESP32 microcontrollers, learn how to connect them, and discover their functionality through hands-on experience with embedded electronics!\n\nWhether you’re new to microcontrollers or looking to expand your hardware and electronics skills, this workshop is for you!\n\n📅 Friday, November 27\n⏰ 6 to 8 PM\n📍 STM 364\n\n🔗 Sign up through the link in our bio!\n\nSee you there! 💙\n\n📡 ATELIER : ESPecially Connected! ⚡\n\nJoignez-vous à nous pour découvrir les microcontrôleurs ESP32, apprendre à les connecter et explorer leurs fonctionnalités grâce à des acti…"
+   },
+   "start": "2026-11-27T18:00:00-05:00",
+   "end": "2026-11-27T20:00:00-05:00",
+   "end_date": null,
+   "date_only": false,
+   "duration_min": 120,
+   "location": {
+    "text": "STM 364",
+    "online": false
+   },
+   "rsvp_required": true,
+   "cost": {
+    "type": "unknown",
+    "amount": null
+   },
+   "languages": [
+    "en",
+    "fr"
+   ],
+   "language_note": null,
+   "translated_from": null,
+   "recurrence": null,
+   "dependency": null,
+   "updates": [],
+   "status": "active"
+  },
+  {
+   "id": "instagram:DgOSDYYhW-s",
+   "platform": "instagram",
+   "post_id": "DgOSDYYhW-s",
+   "post_url": "https://www.instagram.com/p/DgOSDYYhW-s/",
+   "posted_at": "2026-11-26T23:29:07+00:00",
+   "club": {
+    "handle": "uomsa.aemuo",
+    "name": "",
+    "acronym": "",
+    "avatar": null
+   },
+   "category": "religion",
+   "tags": [
+    "religion"
+   ],
+   "title": {
+    "en": "As-salamu alaykum,",
+    "fr": "As-salamu alaykum,"
+   },
+   "description": {
+    "en": "As-salamu alaykum,\n\n🚨 REMINDER:\n🌱 ROOTS | Session 10: Until We Meet Again is TOMORROW!\n\nJoin us for the final session of our Seerah workshop and of course, enjoy free PIZZA! 🍕\n\n📅 November 27 ⏰ 6:00–7:30 PM 📍 MRT 212\n\nWe hope to see you there!\n—————\n\nAs-salamu alaykum,\n\n🚨RAPPEL:\n🌱 ROOTS | Séance 10 : Jusqu’à la prochaine fois est DEMAIN\n\nJoignez-vous à nous pour la dernière séance de notre atelier sur la Seerah et bien sûr, profitez de PIZZA gratuite! 🍕\n\n📅 27 novembre ⏰ 18 h à 19 h 30 📍 MRT 212\n\nAu plaisir de vous y voir!",
+    "fr": "As-salamu alaykum,\n\n🚨 REMINDER:\n🌱 ROOTS | Session 10: Until We Meet Again is TOMORROW!\n\nJoin us for the final session of our Seerah workshop and of course, enjoy free PIZZA! 🍕\n\n📅 November 27 ⏰ 6:00–7:30 PM 📍 MRT 212\n\nWe hope to see you there!\n—————\n\nAs-salamu alaykum,\n\n🚨RAPPEL:\n🌱 ROOTS | Séance 10 : Jusqu’à la prochaine fois est DEMAIN\n\nJoignez-vous à nous pour la dernière séance de notre atelier sur la Seerah et bien sûr, profitez de PIZZA gratuite! 🍕\n\n📅 27 novembre ⏰ 18 h à 19 h 30 📍 MRT 212\n\nAu plaisir de vous y voir!"
+   },
+   "start": "2026-11-27T18:00:00-05:00",
+   "end": "2026-11-27T19:30:00-05:00",
+   "end_date": null,
+   "date_only": false,
+   "duration_min": 90,
+   "location": {
+    "text": "MRT 212",
+    "online": false
+   },
+   "rsvp_required": false,
+   "cost": {
+    "type": "free",
+    "amount": null
+   },
+   "languages": [
+    "en",
+    "fr"
+   ],
+   "language_note": null,
+   "translated_from": null,
+   "recurrence": null,
+   "dependency": null,
+   "updates": [],
+   "status": "active"
+  },
+  {
+   "id": "instagram:DgOL0OXyyGc",
+   "platform": "instagram",
+   "post_id": "DgOL0OXyyGc",
+   "post_url": "https://www.instagram.com/p/DgOL0OXyyGc/",
+   "posted_at": "2026-11-27T00:07:10+00:00",
+   "club": {
+    "handle": "uottawa.susa",
+    "name": "",
+    "acronym": "",
+    "avatar": null
+   },
+   "category": "culture",
+   "tags": [
+    "culture"
+   ],
+   "title": {
+    "en": "TOMORROW! Join us for an evening celebrating Sudanese voices, culture and heritage!",
+    "fr": "TOMORROW! Join us for an evening celebrating Sudanese voices, culture and heritage!"
+   },
+   "description": {
+    "en": "🇸🇩🇸🇸 TOMORROW! Join us for an evening celebrating Sudanese voices, culture and heritage!\n\n📍 CRX 140, University of Ottawa\n🕕 6 PM – 9 PM\n\n🇸🇩🇸🇸C’EST DEMAIN ! Une soirée pour célébrer les voix, la culture et le patrimoine soudanais !\n\n📍 CRX 140, Université d’Ottawa\n🕕 18 h – 21 h",
+    "fr": "🇸🇩🇸🇸 TOMORROW! Join us for an evening celebrating Sudanese voices, culture and heritage!\n\n📍 CRX 140, University of Ottawa\n🕕 6 PM – 9 PM\n\n🇸🇩🇸🇸C’EST DEMAIN ! Une soirée pour célébrer les voix, la culture et le patrimoine soudanais !\n\n📍 CRX 140, Université d’Ottawa\n🕕 18 h – 21 h"
+   },
+   "start": "2026-11-27T18:00:00-05:00",
+   "end": "2026-11-27T21:00:00-05:00",
+   "end_date": null,
+   "date_only": false,
+   "duration_min": 180,
+   "location": {
+    "text": "CRX 140, University of Ottawa",
+    "online": false
+   },
+   "rsvp_required": false,
+   "cost": {
+    "type": "unknown",
+    "amount": null
+   },
+   "languages": [
+    "en",
+    "fr"
+   ],
+   "language_note": null,
+   "translated_from": null,
+   "recurrence": null,
+   "dependency": null,
+   "updates": [],
+   "status": "active"
+  },
+  {
+   "id": "instagram:DgOYmkHDvNV",
+   "platform": "instagram",
+   "post_id": "DgOYmkHDvNV",
+   "post_url": "https://www.instagram.com/p/DgOYmkHDvNV/",
+   "posted_at": "2026-11-27T00:23:39+00:00",
+   "club": {
+    "handle": "uottawa.susa",
+    "name": "",
+    "acronym": "",
+    "avatar": null
+   },
+   "category": "culture",
+   "tags": [
+    "culture"
+   ],
+   "title": {
+    "en": "THE PROGRAM IS HERE!",
+    "fr": "THE PROGRAM IS HERE!"
+   },
+   "description": {
+    "en": "🇸🇩🇸🇸 THE PROGRAM IS HERE!\n\nHere’s what’s waiting for you at SAWT AL-SUDAN! From panel discussions and dance performances to a Sudanese exhibition and open-mic session, there’s something for everyone!\n\nJoin us TOMORROW for an evening of culture, connection and celebration. ❤️\n\n📅 Friday, November 27\n📍 CRX 140, University of Ottawa\n🕕 6 PM – 9 PM\n\n🇸🇩🇸🇸 LE PROGRAMME EST LÀ !\n\nDécouvrez ce qui vous attend à SAWT AL-SUDAN ! Discussions, spectacles de danse, exposition soudanaise et micro ouvert : il y en aura pour tous les goûts !\n\nRejoignez-nous DEMAIN pour une soirée de culture, de partage et de cé…",
+    "fr": "🇸🇩🇸🇸 THE PROGRAM IS HERE!\n\nHere’s what’s waiting for you at SAWT AL-SUDAN! From panel discussions and dance performances to a Sudanese exhibition and open-mic session, there’s something for everyone!\n\nJoin us TOMORROW for an evening of culture, connection and celebration. ❤️\n\n📅 Friday, November 27\n📍 CRX 140, University of Ottawa\n🕕 6 PM – 9 PM\n\n🇸🇩🇸🇸 LE PROGRAMME EST LÀ !\n\nDécouvrez ce qui vous attend à SAWT AL-SUDAN ! Discussions, spectacles de danse, exposition soudanaise et micro ouvert : il y en aura pour tous les goûts !\n\nRejoignez-nous DEMAIN pour une soirée de culture, de partage et de cé…"
+   },
+   "start": "2026-11-27T18:00:00-05:00",
+   "end": "2026-11-27T21:00:00-05:00",
+   "end_date": null,
+   "date_only": false,
+   "duration_min": 180,
+   "location": {
+    "text": "CRX 140, University of Ottawa",
+    "online": false
+   },
+   "rsvp_required": false,
+   "cost": {
+    "type": "unknown",
+    "amount": null
+   },
+   "languages": [
+    "en",
+    "fr"
+   ],
+   "language_note": null,
+   "translated_from": null,
+   "recurrence": null,
+   "dependency": null,
+   "updates": [],
+   "status": "active"
+  },
+  {
+   "id": "instagram:DgQGoEOvwYy",
+   "platform": "instagram",
+   "post_id": "DgQGoEOvwYy",
+   "post_url": "https://www.instagram.com/p/DgQGoEOvwYy/",
+   "posted_at": "2026-11-27T16:29:32+00:00",
+   "club": {
+    "handle": "uomsa.aemuo",
+    "name": "",
+    "acronym": "",
+    "avatar": null
+   },
+   "category": "religion",
+   "tags": [
+    "religion"
+   ],
+   "title": {
+    "en": "As-salamu alaykum,",
+    "fr": "As-salamu alaykum,"
+   },
+   "description": {
+    "en": "As-salamu alaykum,\n\n🌷 BAQATUNA RECAP\n\nA gentle reminder about Baqatuna TOMORROW | باقتنا🌷 \n\n📅 every Saturday\n⏰Sisters: 11AM - 1:30PM\n⏰Brothers: 2PM - 4:30PM\n📍CBY Colonel By B205 ⬅️\n 🌱 Registration is open year-round! 🌷 Sign up through the link ⬇️.\nhttps://forms.gle/BnipPu51p9mEQbWZ6\n—————————\n\nAs-salamu alaykum,\n\n🌷BAQATUNA RÉCAP\n\nPetit rappel : Baqatuna | باقتنا DEMAIN🌷\n\n📅 Tous les samdi\n⏰ Sœurs : 11 h à 13 h 30\n⏰ Frères : 14 h à 16 h 30\n📍 Lieu : CBY Colonel By B205 ⬅️\n\n🌱 Les inscriptions sont ouvertes toute l’année !\n🌷 Inscrivez-vous via le lien ⬇️.\nhttps://forms.gle/BnipPu51p9mEQbWZ6",
+    "fr": "As-salamu alaykum,\n\n🌷 BAQATUNA RECAP\n\nA gentle reminder about Baqatuna TOMORROW | باقتنا🌷 \n\n📅 every Saturday\n⏰Sisters: 11AM - 1:30PM\n⏰Brothers: 2PM - 4:30PM\n📍CBY Colonel By B205 ⬅️\n 🌱 Registration is open year-round! 🌷 Sign up through the link ⬇️.\nhttps://forms.gle/BnipPu51p9mEQbWZ6\n—————————\n\nAs-salamu alaykum,\n\n🌷BAQATUNA RÉCAP\n\nPetit rappel : Baqatuna | باقتنا DEMAIN🌷\n\n📅 Tous les samdi\n⏰ Sœurs : 11 h à 13 h 30\n⏰ Frères : 14 h à 16 h 30\n📍 Lieu : CBY Colonel By B205 ⬅️\n\n🌱 Les inscriptions sont ouvertes toute l’année !\n🌷 Inscrivez-vous via le lien ⬇️.\nhttps://forms.gle/BnipPu51p9mEQbWZ6"
+   },
+   "start": "2026-11-28T11:00:00-05:00",
+   "end": "2026-11-28T13:30:00-05:00",
+   "end_date": null,
+   "date_only": false,
+   "duration_min": 150,
+   "location": {
+    "text": "CBY Colonel By B205",
+    "online": false
+   },
+   "rsvp_required": true,
+   "cost": {
+    "type": "unknown",
+    "amount": null
+   },
+   "languages": [
+    "fr"
+   ],
+   "language_note": "maybe_fr",
+   "translated_from": null,
+   "recurrence": {
+    "freq": "weekly",
+    "until": "2027-04-30",
+    "until_assumed": true,
+    "occurrences": [
+     "2026-11-28T11:00:00-05:00",
+     "2026-12-05T11:00:00-05:00",
+     "2026-12-12T11:00:00-05:00",
+     "2026-12-19T11:00:00-05:00",
+     "2026-12-26T11:00:00-05:00",
+     "2027-01-02T11:00:00-05:00",
+     "2027-01-09T11:00:00-05:00",
+     "2027-01-16T11:00:00-05:00",
+     "2027-01-23T11:00:00-05:00",
+     "2027-01-30T11:00:00-05:00",
+     "2027-02-06T11:00:00-05:00",
+     "2027-02-13T11:00:00-05:00",
+     "2027-02-20T11:00:00-05:00",
+     "2027-02-27T11:00:00-05:00",
+     "2027-03-06T11:00:00-05:00",
+     "2027-03-13T11:00:00-05:00",
+     "2027-03-20T11:00:00-04:00",
+     "2027-03-27T11:00:00-04:00",
+     "2027-04-03T11:00:00-04:00",
+     "2027-04-10T11:00:00-04:00",
+     "2027-04-17T11:00:00-04:00",
+     "2027-04-24T11:00:00-04:00"
+    ]
+   },
+   "dependency": null,
+   "updates": [],
+   "status": "active"
+  },
+  {
+   "id": "instagram:DgQUjh0oncc",
+   "platform": "instagram",
+   "post_id": "DgQUjh0oncc",
+   "post_url": "https://www.instagram.com/p/DgQUjh0oncc/",
+   "posted_at": "2026-11-27T18:31:43+00:00",
+   "club": {
+    "handle": "aeeippssa.uo",
+    "name": "",
+    "acronym": "",
+    "avatar": null
+   },
+   "category": "academic",
+   "tags": [
+    "academic"
+   ],
+   "title": {
+    "en": "(English follows)",
+    "fr": "(English follows)"
+   },
+   "description": {
+    "en": "(English follows) \n\n🇸🇪 L’AÉÉIP vous offre la possibilité de visiter l’ambassade de Suède à Ottawa et de rencontrer son personnel (377 Dalhousie St). Inscrivez-vous au lien dans notre bio, les places sont limitées. Les personnes sélectionnées seront contactées par courriel avant l’événement.\n\nLa visite aura lieu le 7 décembre 2026 à 10 h 00. La visite durera environ une heure.\n\nSi vous avez des questions, veuillez contacter eil@aeeippssa.net, votre VP des affaires académiques en études internationales et langues modernes (Kayla).\n\n—\n\n🇸🇪 IPPSSA is offering you the chance to visit the Swedish Emb…",
+    "fr": "(English follows) \n\n🇸🇪 L’AÉÉIP vous offre la possibilité de visiter l’ambassade de Suède à Ottawa et de rencontrer son personnel (377 Dalhousie St). Inscrivez-vous au lien dans notre bio, les places sont limitées. Les personnes sélectionnées seront contactées par courriel avant l’événement.\n\nLa visite aura lieu le 7 décembre 2026 à 10 h 00. La visite durera environ une heure.\n\nSi vous avez des questions, veuillez contacter eil@aeeippssa.net, votre VP des affaires académiques en études internationales et langues modernes (Kayla).\n\n—\n\n🇸🇪 IPPSSA is offering you the chance to visit the Swedish Emb…"
+   },
+   "start": "2026-12-07T10:00:00-05:00",
+   "end": null,
+   "end_date": null,
+   "date_only": false,
+   "duration_min": null,
+   "location": null,
+   "rsvp_required": true,
+   "cost": {
+    "type": "unknown",
+    "amount": null
+   },
+   "languages": [
+    "en",
+    "fr"
+   ],
+   "language_note": null,
+   "translated_from": null,
+   "recurrence": null,
+   "dependency": null,
+   "updates": [],
+   "status": "active"
+  }
+ ]
 }

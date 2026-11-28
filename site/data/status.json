@@ -1,69 +1,101 @@
 {
- "last_run": "2026-11-27T19:03:00.971768-05:00",
+ "last_run": "2026-11-27T19:12:21.674679-05:00",
  "accounts": {
   "instagram:uo.ebc": {
-   "ok": false,
-   "error": "LoginRequiredException: Redirected to login page. Use --login or --load-cookies."
+   "ok": true,
+   "posts": 1,
+   "new": 0,
+   "updates": 0
   },
   "instagram:mtlbsauo": {
-   "ok": false,
-   "error": "LoginRequiredException: Redirected to login page. Use --login or --load-cookies."
+   "ok": true,
+   "posts": 0,
+   "new": 0,
+   "updates": 0
   },
   "instagram:rwsa.uottawa": {
-   "ok": false,
-   "error": "LoginRequiredException: Redirected to login page. Use --login or --load-cookies."
+   "ok": true,
+   "posts": 1,
+   "new": 0,
+   "updates": 0
   },
   "instagram:nsbeuottawa": {
-   "ok": false,
-   "error": "LoginRequiredException: Redirected to login page. Use --login or --load-cookies."
+   "ok": true,
+   "posts": 0,
+   "new": 0,
+   "updates": 0
   },
   "instagram:uossa.aesuo": {
-   "ok": false,
-   "error": "LoginRequiredException: Redirected to login page. Use --login or --load-cookies."
+   "ok": true,
+   "posts": 0,
+   "new": 0,
+   "updates": 0
   },
   "instagram:maison_i_house": {
-   "ok": false,
-   "error": "LoginRequiredException: Redirected to login page. Use --login or --load-cookies."
+   "ok": true,
+   "posts": 1,
+   "new": 0,
+   "updates": 0
   },
   "instagram:ieeeuottawa": {
-   "ok": false,
-   "error": "LoginRequiredException: Redirected to login page. Use --login or --load-cookies."
+   "ok": true,
+   "posts": 4,
+   "new": 1,
+   "updates": 0
   },
   "instagram:uottawa_essaeg": {
-   "ok": false,
-   "error": "LoginRequiredException: Redirected to login page. Use --login or --load-cookies."
+   "ok": true,
+   "posts": 1,
+   "new": 0,
+   "updates": 0
   },
   "instagram:genie_engineering_uottawa": {
-   "ok": false,
-   "error": "LoginRequiredException: Redirected to login page. Use --login or --load-cookies."
+   "ok": true,
+   "posts": 0,
+   "new": 0,
+   "updates": 0
   },
   "instagram:uomsa.aemuo": {
-   "ok": false,
-   "error": "LoginRequiredException: Redirected to login page. Use --login or --load-cookies."
+   "ok": true,
+   "posts": 2,
+   "new": 2,
+   "updates": 0
   },
   "instagram:aeeippssa.uo": {
-   "ok": false,
-   "error": "LoginRequiredException: Redirected to login page. Use --login or --load-cookies."
+   "ok": true,
+   "posts": 1,
+   "new": 1,
+   "updates": 0
   },
   "instagram:food_bank_aliment": {
-   "ok": false,
-   "error": "LoginRequiredException: Redirected to login page. Use --login or --load-cookies."
+   "ok": true,
+   "posts": 0,
+   "new": 0,
+   "updates": 0
   },
   "instagram:uo.bsa": {
-   "ok": false,
-   "error": "LoginRequiredException: Redirected to login page. Use --login or --load-cookies."
+   "ok": true,
+   "posts": 0,
+   "new": 0,
+   "updates": 0
   },
   "instagram:uo_ysa": {
-   "ok": false,
-   "error": "LoginRequiredException: Redirected to login page. Use --login or --load-cookies."
+   "ok": true,
+   "posts": 0,
+   "new": 0,
+   "updates": 0
   },
   "instagram:tsa.uottawa": {
-   "ok": false,
-   "error": "LoginRequiredException: Redirected to login page. Use --login or --load-cookies."
+   "ok": true,
+   "posts": 0,
+   "new": 0,
+   "updates": 0
   },
   "instagram:uottawa.susa": {
-   "ok": false,
-   "error": "LoginRequiredException: Redirected to login page. Use --login or --load-cookies."
+   "ok": true,
+   "posts": 2,
+   "new": 2,
+   "updates": 0
   }
  }
 }
