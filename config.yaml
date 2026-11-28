@@ -48,7 +48,6 @@ accounts:
   - {handle: enactusottawa,             category: networking, name_en: "Enactus uOttawa", name_fr: "Enactus uOttawa", acronym_en: "", acronym_fr: ""}
   - {handle: lecteur_avidesuo,          category: culture,    name_en: "Avid Readers Club", name_fr: "Club des lecteurs avides", acronym_en: "", acronym_fr: ""}
   - {handle: ummsuo_stfpsuo,            category: academic,   name_en: "Undergraduate Mock Trial and Moot Court Society", name_fr: "Société des tribunaux fictifs et de plaidoirie simulée de premier cycle", acronym_en: "UMMSUO", acronym_fr: "STFPSUO"}
-  - {handle: uopoetry,                  category: culture,    name_en: "uOpoetry", name_fr: "uOpoésie", acronym_en: "", acronym_fr: ""}
   - {handle: bioethics.uo,              category: academic,   name_en: "uOttawa Bioethics Society", name_fr: "Société de bioéthique de l'uOttawa", acronym_en: "", acronym_fr: ""}
   - {handle: wiis.uo,                   category: academic,   name_en: "Women in International Security uOttawa", name_fr: "Femmes en sécurité internationale uOttawa", acronym_en: "WIIS", acronym_fr: ""}
   - {handle: uocupibond,                category: social,     name_en: "Cupibond uOttawa", name_fr: "Cupibond uOttawa", acronym_en: "", acronym_fr: ""}
