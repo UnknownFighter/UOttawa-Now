@@ -28,21 +28,21 @@ categories:
 # ------------------------------------------------------------
 accounts:
   instagram:
-    - {handle: uo.ebc,                    category: networking, name_en: "", name_fr: "", acronym_en: "", acronym_fr: ""}
-    - {handle: mtlbsauo,                  category: culture,    name_en: "", name_fr: "", acronym_en: "", acronym_fr: ""}
-    - {handle: rwsa.uottawa,              category: culture,    name_en: "", name_fr: "", acronym_en: "", acronym_fr: ""}
-    - {handle: nsbeuottawa,               category: networking, name_en: "", name_fr: "", acronym_en: "", acronym_fr: ""}
-    - {handle: uossa.aesuo,               category: culture,    name_en: "", name_fr: "", acronym_en: "", acronym_fr: ""}
-    - {handle: maison_i_house,            category: culture,    name_en: "", name_fr: "", acronym_en: "", acronym_fr: ""}
-    - {handle: ieeeuottawa,               category: networking, name_en: "", name_fr: "", acronym_en: "", acronym_fr: ""}
-    - {handle: uottawa_essaeg,            category: academic,   name_en: "", name_fr: "", acronym_en: "", acronym_fr: ""}
-    - {handle: genie_engineering_uottawa, category: academic,   name_en: "", name_fr: "", acronym_en: "", acronym_fr: ""}
-    - {handle: uomsa.aemuo,               category: religion,   name_en: "", name_fr: "", acronym_en: "", acronym_fr: ""}
-    - {handle: aeeippssa.uo,              category: academic,   name_en: "", name_fr: "", acronym_en: "", acronym_fr: ""}
-    - {handle: food_bank_aliment,         category: food,       name_en: "", name_fr: "", acronym_en: "", acronym_fr: ""}
-    - {handle: uo.bsa,                    category: culture,    name_en: "", name_fr: "", acronym_en: "", acronym_fr: ""}
-    - {handle: uo_ysa,                    category: culture,    name_en: "", name_fr: "", acronym_en: "", acronym_fr: ""}
-    - {handle: tsa.uottawa,               category: culture,    name_en: "", name_fr: "", acronym_en: "", acronym_fr: ""}
+    - {handle: uo.ebc,                    category: networking, name_en: "Engineering Business Club", name_fr: "Club de génie et commerce", acronym_en: "UOEBC", acronym_fr: "CGCUO"}
+    - {handle: mtlbsauo,                  category: culture,    name_en: "MATLAB Student Ambassador at uOttawa", name_fr: "Ambassadeur Étudiante de MATLAB à l'uOttawa ", acronym_en: "", acronym_fr: ""}
+    - {handle: rwsa.uottawa,              category: culture,    name_en: "Rwandan Student Association", name_fr: "Association des étudiants rwandais", acronym_en: "RWSA", acronym_fr: "AÉRW"}
+    - {handle: nsbeuottawa,               category: networking, name_en: "uOttawa chapter of the National Society of Black Engineers", name_fr: "Société nationale des ingénieurs noirs chapitre de l'uOttawa", acronym_en: "NSBE", acronym_fr: "SNIN"}
+    - {handle: uossa.aesuo,               category: culture,    name_en: "University of Ottawa Senegalese Student Association", name_fr: "Association des étudiants sénégalais de l’Université d’Ottawa", acronym_en: "UOSSA", acronym_fr: "AESUO"}
+    - {handle: maison_i_house,            category: culture,    name_en: "The International House UOSU", name_fr: "La Maison internationale de l'UOSU", acronym_en: "", acronym_fr: ""}
+    - {handle: ieeeuottawa,               category: networking, name_en: "IEEE uOttawa Student Branch", name_fr: "", acronym_en: "IEEE", acronym_fr: ""}
+    - {handle: uottawa_essaeg,            category: academic,   name_en: "uOttawa Engineering Student Society", name_fr: "Association des étudiant(e)s en génie d’uOttawa", acronym_en: "ESS", acronym_fr: "AÉG"}
+    - {handle: genie_engineering_uottawa, category: academic,   name_en: "Official account of the Faculty of Engineering", name_fr: "Compte officiel de la Faculté de génie", acronym_en: "uOttawa Engineering", acronym_fr: "uOttawa Génie"}
+    - {handle: uomsa.aemuo,               category: religion,   name_en: "uOttawa Muslim Students Association", name_fr: "Association des étudiant(e)s musulman(ne)s de l’Université d’Ottawa", acronym_en: "uOMSA", acronym_fr: "AÉMuO"}
+    - {handle: aeeippssa.uo,              category: academic,   name_en: "Student Association for Political Science, Public Administration, and International Studies & Languages at uOttawa", name_fr: "Association étudiante de science politique, d’administration publique et d’études internationales et langues de l’Université d’Ottawa", acronym_en: "AÉÉIP", acronym_fr: "IPPSSA"}
+    - {handle: food_bank_aliment,         category: food,       name_en: "Food Bank", name_fr: "Banque alimentaire", acronym_en: "", acronym_fr: ""}
+    - {handle: uo.bsa,                    category: culture,    name_en: "uOttawa Balkan Students’ Association", name_fr: "Association des étudiants des Balkans de l’Université d’Ottawa", acronym_en: "UOBSA", acronym_fr: ""}
+    - {handle: uo_ysa,                    category: culture,    name_en: "Yemeni Students Association", name_fr: "Association des étudiants yéménites", acronym_en: "YSA", acronym_fr: "YSA"}
+    - {handle: tsa.uottawa,               category: culture,    name_en: "Tunisian Students Association ", name_fr: "Association Étudiantes Tunisienne", acronym_en: "UOTSA", acronym_fr: "AETUO"}
     - {handle: uottawa.susa, category: culture, name_en: "Sudanese Students Association", name_fr: "Association des étudiants soudanais", acronym_en: "SUSA", acronym_fr: "AÉS"}
 
   # >>> TIKTOK ACCOUNTS GO HERE (same format as above). Example:
